@@ -1,0 +1,111 @@
+@import "@fontsource-variable/inter";
+@import "@fontsource-variable/plus-jakarta-sans";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Colour tokens as "R G B" so Tailwind opacity modifiers (bg-sand-dark/40) keep working.
+   Light = warm sand (the brief). Dark = deep forest night. `.theme-light` pins a subtree to light. */
+:root, html.dark .theme-light {
+  color-scheme: light;
+  --c-forest-deep: 23 63 53; --c-forest: 36 92 73; --c-forest-soft: 220 233 223;
+  --c-sand: 234 227 211; --c-sand-light: 243 237 225; --c-sand-card: 245 240 230; --c-sand-dark: 216 206 188;
+  --c-purple: 139 92 246; --c-purple-deep: 112 65 217; --c-purple-soft: 233 223 255;
+  --c-ink: 36 51 45; --c-ink-muted: 91 103 95; --c-ink-faint: 119 128 120;
+  --c-ok: 57 155 112; --c-warn: 212 154 69; --c-bad: 217 107 107;
+  --c-ok-ink: 31 106 73; --c-warn-ink: 122 83 26; --c-bad-ink: 155 58 58;
+  --c-onaccent: 243 237 225;
+  --sh-dark: rgba(150, 134, 104, calc(0.34 * var(--neu)));
+  --sh-light: rgba(255, 252, 244, calc(0.95 * var(--neu)));
+}
+html.dark {
+  color-scheme: dark;
+  --c-forest-deep: 167 215 189; --c-forest: 91 180 138; --c-forest-soft: 29 58 46;
+  --c-sand: 22 27 24; --c-sand-light: 17 21 18; --c-sand-card: 30 37 33; --c-sand-dark: 49 59 53;
+  --c-purple: 167 139 250; --c-purple-deep: 185 163 255; --c-purple-soft: 45 37 80;
+  --c-ink: 230 227 217; --c-ink-muted: 167 176 168; --c-ink-faint: 126 137 129;
+  --c-ok: 79 191 138; --c-warn: 224 174 92; --c-bad: 233 130 130;
+  --c-ok-ink: 143 221 181; --c-warn-ink: 240 201 133; --c-bad-ink: 244 165 165;
+  --c-onaccent: 14 21 18;
+  --sh-dark: rgba(0, 0, 0, calc(0.55 * var(--neu)));
+  --sh-light: rgba(255, 255, 255, calc(0.045 * var(--neu)));
+}
+:root, html.dark, html.dark .theme-light {
+  /* neumorphic shadows; --neu scales intensity (Settings > Appearance) */
+  --sh-raised: 7px 7px 16px var(--sh-dark), -7px -7px 16px var(--sh-light);
+  --sh-raised-sm: 4px 4px 9px var(--sh-dark), -4px -4px 9px var(--sh-light);
+  --sh-inset: inset 3px 3px 7px var(--sh-dark), inset -3px -3px 7px var(--sh-light);
+  --sh-pressed: inset 2px 2px 5px var(--sh-dark), inset -2px -2px 5px var(--sh-light);
+}
+:root { --neu: 1; --pad: 1; }
+/* smooth theme switch (skipped under reduce-motion via the rules below) */
+html.theme-anim, html.theme-anim *, html.theme-anim *::before, html.theme-anim *::after {
+  transition: background-color .3s ease, border-color .3s ease, color .3s ease, fill .3s ease, box-shadow .3s ease !important;
+}
+html.density-compact { --pad: 0.8; }
+html.reduce-motion *, html.reduce-motion *::before, html.reduce-motion *::after {
+  animation-duration: 0.001ms !important; transition-duration: 0.001ms !important;
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; }
+}
+html { font-size: 16px; }
+html.text-large { font-size: 17.5px; }
+
+body { @apply bg-sand font-sans text-ink antialiased; }
+h1, h2, h3, h4 { @apply font-heading tracking-tight; }
+:focus-visible { outline: 2px solid rgb(var(--c-purple-deep)); outline-offset: 2px; border-radius: 10px; }
+::selection { background: rgb(var(--c-purple-soft)); }
+* { scrollbar-width: thin; scrollbar-color: rgb(var(--c-sand-dark)) transparent; }
+
+@layer components {
+  .card { @apply rounded-xl2 bg-sand-card shadow-raised transition-shadow duration-300; }
+  .card-flat { @apply rounded-xl2 bg-sand-card/70 shadow-inset; }
+  .field { @apply w-full rounded-xl bg-sand-light shadow-inset px-4 py-2.5 text-sm text-ink placeholder:text-ink-faint
+    outline-none border border-transparent transition focus:border-purple focus:ring-2 focus:ring-purple/20; }
+  .btn { @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-sm font-semibold
+    transition duration-200 disabled:cursor-not-allowed disabled:opacity-50 select-none; }
+  .btn-primary { @apply btn bg-forest text-onaccent shadow-raised-sm hover:bg-forest-deep active:shadow-pressed; }
+  .btn-secondary { @apply btn bg-sand-card text-ink shadow-raised-sm hover:shadow-raised active:shadow-pressed; }
+  .btn-ai { @apply btn bg-purple-deep text-onaccent shadow-raised-sm hover:bg-purple active:shadow-pressed; }
+  .btn-ghost { @apply btn text-ink-muted hover:bg-sand-dark/50; }
+  .btn-danger { @apply btn bg-sand-card text-bad shadow-raised-sm hover:shadow-raised active:shadow-pressed; }
+  .chip { @apply inline-flex items-center gap-1 rounded-full bg-forest-soft px-2.5 py-0.5 text-xs font-medium text-forest-deep; }
+  .chip-ai { @apply inline-flex items-center gap-1 rounded-full bg-purple-soft px-2.5 py-0.5 text-xs font-medium text-purple-deep; }
+  .label { @apply text-xs font-semibold uppercase tracking-wider text-ink-muted; }
+}
+
+/* markdown documents (reports) */
+.doc h1 { @apply mb-3 text-2xl font-bold text-forest-deep; }
+.doc h2 { @apply mb-2 mt-7 border-b border-sand-dark pb-1 text-lg font-bold text-forest-deep; }
+.doc p, .doc li { @apply text-sm leading-relaxed text-ink; }
+.doc p { @apply my-2; }
+.doc ul { @apply my-2 list-disc pl-5; }
+.doc table { @apply my-3 w-full border-collapse text-xs; }
+.doc th { @apply bg-forest-soft px-2 py-1.5 text-left font-semibold text-forest-deep; }
+.doc td { @apply border-b border-sand-dark px-2 py-1.5; }
+.doc code { @apply rounded bg-purple-soft px-1 py-0.5 text-[11px] text-purple-deep; }
+.doc em { @apply text-ink-muted; }
+
+/* React Flow tweaks */
+.react-flow__attribution { display: none; }
+.react-flow { --xy-background-color: transparent; } /* let the theme surface show through */
+.react-flow__controls { @apply overflow-hidden rounded-xl border-0 shadow-raised-sm; }
+.react-flow__controls-button { @apply border-sand-dark bg-sand-card text-ink; }
+.react-flow__minimap { @apply rounded-xl shadow-raised-sm; }
+.react-flow__controls-button:hover { @apply bg-sand-dark; }
+.react-flow__controls-button svg { fill: currentColor; }
+.react-flow__edge-textbg { fill: rgb(var(--c-sand-card)); }
+
+@layer components {
+  .prose-report { @apply text-sm leading-relaxed text-ink; }
+  .prose-report h1 { @apply mb-3 mt-1 text-xl font-extrabold text-forest-deep; }
+  .prose-report h2 { @apply mb-2 mt-6 text-base font-bold text-forest-deep; }
+  .prose-report h3 { @apply mb-1 mt-4 text-sm font-bold; }
+  .prose-report p, .prose-report ul, .prose-report ol { @apply mb-3; }
+  .prose-report ul { @apply list-disc pl-5; }
+  .prose-report ol { @apply list-decimal pl-5; }
+  .prose-report code { @apply rounded bg-purple-soft px-1.5 py-0.5 text-[11px] text-purple-deep; }
+  .prose-report table { @apply mb-3 block w-full overflow-x-auto text-left text-xs; }
+  .prose-report th, .prose-report td { @apply border-b border-sand-dark/60 px-2 py-1.5; }
+}

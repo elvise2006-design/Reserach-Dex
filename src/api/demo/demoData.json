@@ -1,0 +1,3071 @@
+{
+ "_note": "SYNTHETIC sample data: output of the real pipeline on 8 invented papers with a scripted test LLM.",
+ "corpus": {
+  "id": "demo",
+  "name": "Sample corpus (synthetic)",
+  "topic": "LLM agents (invented papers)",
+  "created_at": "2026-11-14T17:58:16.637538+00:00",
+  "paper_count": 8
+ },
+ "papers": [
+  {
+   "id": "p1",
+   "corpus_id": "demo",
+   "filename": "p1.pdf",
+   "title": "Chain-of-Thought Prompting for Multi-step Agents",
+   "year": 2022,
+   "status": "extracted",
+   "parse_quality": 0.9,
+   "retry_count": 0,
+   "error": null,
+   "authors": [
+    "A. Rivera",
+    "B. Chen"
+   ],
+   "abstract": "We study chain-of-thought prompting for multi-step agents on grade-school math problems.",
+   "created_at": "2026-11-06T17:58:16.637538+00:00",
+   "topics": [
+    "chain-of-thought, prompting, planact"
+   ],
+   "methods": [
+    "chain-of-thought"
+   ]
+  },
+  {
+   "id": "p2",
+   "corpus_id": "demo",
+   "filename": "p2.pdf",
+   "title": "PlanAct: Planning Before Acting in Web Agents",
+   "year": 2023,
+   "status": "extracted",
+   "parse_quality": 0.9,
+   "retry_count": 0,
+   "error": null,
+   "authors": [
+    "C. Okafor",
+    "D. Lindqvist"
+   ],
+   "abstract": "We introduce PlanAct, an agent that writes an explicit plan before taking web actions.",
+   "created_at": "2026-11-07T17:58:16.637538+00:00",
+   "topics": [
+    "chain-of-thought, prompting, planact"
+   ],
+   "methods": [
+    "PlanAct",
+    "chain-of-thought"
+   ]
+  },
+  {
+   "id": "p3",
+   "corpus_id": "demo",
+   "filename": "p3.pdf",
+   "title": "SelfCritic: Agents That Critique Their Own Code",
+   "year": 2023,
+   "status": "extracted",
+   "parse_quality": 0.9,
+   "retry_count": 0,
+   "error": null,
+   "authors": [
+    "E. Park",
+    "F. Haddad"
+   ],
+   "abstract": "We present SelfCritic, a loop in which a coding agent critiques and revises its own output.",
+   "created_at": "2026-11-08T17:58:16.637538+00:00",
+   "topics": [
+    "selfcritic, self-critique, code"
+   ],
+   "methods": [
+    "SelfCritic"
+   ]
+  },
+  {
+   "id": "p4",
+   "corpus_id": "demo",
+   "filename": "p4.pdf",
+   "title": "Does Self-Critique Help? A Negative Result",
+   "year": 2024,
+   "status": "extracted",
+   "parse_quality": 0.9,
+   "retry_count": 0,
+   "error": null,
+   "authors": [
+    "G. Moreau",
+    "H. Tanaka"
+   ],
+   "abstract": "We replicate SelfCritic on two benchmarks and find the gains are small.",
+   "created_at": "2026-11-09T17:58:16.637538+00:00",
+   "topics": [
+    "selfcritic, self-critique, code"
+   ],
+   "methods": [
+    "SelfCritic"
+   ]
+  },
+  {
+   "id": "p5",
+   "corpus_id": "demo",
+   "filename": "p5.pdf",
+   "title": "ToolTune: Fine-tuning Language Models for Tool Use",
+   "year": 2024,
+   "status": "extracted",
+   "parse_quality": 0.9,
+   "retry_count": 0,
+   "error": null,
+   "authors": [
+    "I. Novak",
+    "J. Adeyemi"
+   ],
+   "abstract": "We propose ToolTune, which fine-tunes a language model on traces of successful tool calls.",
+   "created_at": "2026-11-10T17:58:16.637538+00:00",
+   "topics": [
+    "memorygraph, tooltune, web"
+   ],
+   "methods": [
+    "ToolTune"
+   ]
+  },
+  {
+   "id": "p6",
+   "corpus_id": "demo",
+   "filename": "p6.pdf",
+   "title": "MemoryGraph: Long-term Memory for Web Agents",
+   "year": 2024,
+   "status": "extracted",
+   "parse_quality": 0.9,
+   "retry_count": 0,
+   "error": null,
+   "authors": [
+    "K. Silva",
+    "L. Berg"
+   ],
+   "abstract": "We introduce MemoryGraph, a persistent graph memory for long-horizon web agents.",
+   "created_at": "2026-11-11T17:58:16.637538+00:00",
+   "topics": [
+    "memorygraph, tooltune, web"
+   ],
+   "methods": [
+    "MemoryGraph",
+    "PlanAct"
+   ]
+  },
+  {
+   "id": "p7",
+   "corpus_id": "demo",
+   "filename": "p7.pdf",
+   "title": "Agent Benchmarks Revisited",
+   "year": 2025,
+   "status": "extracted",
+   "parse_quality": 0.9,
+   "retry_count": 0,
+   "error": null,
+   "authors": [
+    "M. Fischer",
+    "N. Osei"
+   ],
+   "abstract": "We re-evaluate PlanAct and chain-of-thought baselines on WebTasks and CodeBench.",
+   "created_at": "2026-11-12T17:58:16.637538+00:00",
+   "topics": [
+    "chain-of-thought, prompting, planact"
+   ],
+   "methods": [
+    "PlanAct",
+    "chain-of-thought"
+   ]
+  },
+  {
+   "id": "p8",
+   "corpus_id": "demo",
+   "filename": "p8.pdf",
+   "title": "ToolTune Meets MemoryGraph",
+   "year": 2025,
+   "status": "extracted",
+   "parse_quality": 0.9,
+   "retry_count": 0,
+   "error": null,
+   "authors": [
+    "O. Alvarez",
+    "P. Kim"
+   ],
+   "abstract": "We combine ToolTune with MemoryGraph for web agents.",
+   "created_at": "2026-11-13T17:58:16.637538+00:00",
+   "topics": [
+    "memorygraph, tooltune, web"
+   ],
+   "methods": [
+    "ToolTune",
+    "MemoryGraph"
+   ]
+  }
+ ],
+ "paperDetails": {
+  "p1": {
+   "id": "p1",
+   "corpus_id": "demo",
+   "filename": "p1.pdf",
+   "title": "Chain-of-Thought Prompting for Multi-step Agents",
+   "year": 2022,
+   "status": "extracted",
+   "parse_quality": 0.9,
+   "retry_count": 0,
+   "error": null,
+   "authors": [
+    "A. Rivera",
+    "B. Chen"
+   ],
+   "abstract": "We study chain-of-thought prompting for multi-step agents on grade-school math problems.",
+   "created_at": "2026-11-06T17:58:16.637538+00:00",
+   "topics": [
+    "chain-of-thought, prompting, planact"
+   ],
+   "methods": [
+    "chain-of-thought"
+   ],
+   "extraction": {
+    "paper_id": "p1",
+    "problem": "We study chain-of-thought prompting for multi-step agents on grade-school math problems.",
+    "methods": [
+     "chain-of-thought"
+    ],
+    "datasets": [
+     "MathQA"
+    ],
+    "metrics": [
+     "accuracy"
+    ],
+    "results": [
+     {
+      "dataset": "MathQA",
+      "metric": "accuracy",
+      "split": "test",
+      "value": 61.2,
+      "unit": null,
+      "method": "chain-of-thought",
+      "source": {
+       "paper_id": "p1",
+       "section": "Experiments",
+       "page": 4,
+       "char_start": 0,
+       "char_end": 74
+      }
+     }
+    ],
+    "limitations": [
+     "Success rate degrades on tasks requiring more than ten steps."
+    ],
+    "future_work": [
+     "Future work should study how reasoning depth interacts with tool access."
+    ],
+    "source_spans": {
+     "problem:We study chain-of-thought prompting for multi-step agents on grade-school math problems.": [
+      {
+       "paper_id": "p1",
+       "section": "Abstract",
+       "page": 1,
+       "char_start": 0,
+       "char_end": 88
+      }
+     ],
+     "methods:chain-of-thought": [
+      {
+       "paper_id": "p1",
+       "section": "Method",
+       "page": 2,
+       "char_start": 0,
+       "char_end": 74
+      }
+     ],
+     "datasets:MathQA": [
+      {
+       "paper_id": "p1",
+       "section": "Experiments",
+       "page": 4,
+       "char_start": 0,
+       "char_end": 74
+      }
+     ],
+     "metrics:accuracy": [
+      {
+       "paper_id": "p1",
+       "section": "Experiments",
+       "page": 4,
+       "char_start": 0,
+       "char_end": 74
+      }
+     ],
+     "limitations:Success rate degrades on tasks requiring more than ten steps.": [
+      {
+       "paper_id": "p1",
+       "section": "Limitations",
+       "page": 6,
+       "char_start": 0,
+       "char_end": 61
+      }
+     ],
+     "future_work:Future work should study how reasoning depth interacts with tool access.": [
+      {
+       "paper_id": "p1",
+       "section": "Conclusion",
+       "page": 7,
+       "char_start": 0,
+       "char_end": 72
+      }
+     ]
+    },
+    "unverified": [],
+    "errors": [],
+    "prompt_version": "v1",
+    "model": "scripted-test-double"
+   },
+   "claims": [
+    {
+     "claim_id": "p1#c0",
+     "text": "Chain-of-thought prompting improves accuracy on multi-step math problems.",
+     "source": {
+      "paper_id": "p1",
+      "section": "Experiments",
+      "page": 4,
+      "char_start": 0,
+      "char_end": 74
+     }
+    }
+   ]
+  },
+  "p2": {
+   "id": "p2",
+   "corpus_id": "demo",
+   "filename": "p2.pdf",
+   "title": "PlanAct: Planning Before Acting in Web Agents",
+   "year": 2023,
+   "status": "extracted",
+   "parse_quality": 0.9,
+   "retry_count": 0,
+   "error": null,
+   "authors": [
+    "C. Okafor",
+    "D. Lindqvist"
+   ],
+   "abstract": "We introduce PlanAct, an agent that writes an explicit plan before taking web actions.",
+   "created_at": "2026-11-07T17:58:16.637538+00:00",
+   "topics": [
+    "chain-of-thought, prompting, planact"
+   ],
+   "methods": [
+    "PlanAct",
+    "chain-of-thought"
+   ],
+   "extraction": {
+    "paper_id": "p2",
+    "problem": "We introduce PlanAct, an agent that writes an explicit plan before taking web actions.",
+    "methods": [
+     "PlanAct",
+     "chain-of-thought"
+    ],
+    "datasets": [
+     "WebTasks",
+     "MathQA"
+    ],
+    "metrics": [
+     "success rate",
+     "accuracy"
+    ],
+    "results": [
+     {
+      "dataset": "WebTasks",
+      "metric": "success rate",
+      "split": "test",
+      "value": 48.5,
+      "unit": null,
+      "method": "PlanAct",
+      "source": {
+       "paper_id": "p2",
+       "section": "Experiments",
+       "page": 4,
+       "char_start": 0,
+       "char_end": 61
+      }
+     },
+     {
+      "dataset": "MathQA",
+      "metric": "accuracy",
+      "split": "test",
+      "value": 66.0,
+      "unit": null,
+      "method": "PlanAct",
+      "source": {
+       "paper_id": "p2",
+       "section": "Experiments",
+       "page": 4,
+       "char_start": 62,
+       "char_end": 117
+      }
+     }
+    ],
+    "limitations": [
+     "Success rate degrades on tasks requiring more than ten steps."
+    ],
+    "future_work": [
+     "Future work includes learning the planner from data."
+    ],
+    "source_spans": {
+     "problem:We introduce PlanAct, an agent that writes an explicit plan before taking web actions.": [
+      {
+       "paper_id": "p2",
+       "section": "Abstract",
+       "page": 1,
+       "char_start": 0,
+       "char_end": 86
+      }
+     ],
+     "methods:PlanAct": [
+      {
+       "paper_id": "p2",
+       "section": "Method",
+       "page": 2,
+       "char_start": 0,
+       "char_end": 77
+      }
+     ],
+     "methods:chain-of-thought": [
+      {
+       "paper_id": "p2",
+       "section": "Method",
+       "page": 2,
+       "char_start": 0,
+       "char_end": 77
+      }
+     ],
+     "datasets:WebTasks": [
+      {
+       "paper_id": "p2",
+       "section": "Experiments",
+       "page": 4,
+       "char_start": 0,
+       "char_end": 61
+      }
+     ],
+     "datasets:MathQA": [
+      {
+       "paper_id": "p2",
+       "section": "Experiments",
+       "page": 4,
+       "char_start": 62,
+       "char_end": 117
+      }
+     ],
+     "metrics:success rate": [
+      {
+       "paper_id": "p2",
+       "section": "Experiments",
+       "page": 4,
+       "char_start": 0,
+       "char_end": 61
+      }
+     ],
+     "metrics:accuracy": [
+      {
+       "paper_id": "p2",
+       "section": "Experiments",
+       "page": 4,
+       "char_start": 62,
+       "char_end": 117
+      }
+     ],
+     "limitations:Success rate degrades on tasks requiring more than ten steps.": [
+      {
+       "paper_id": "p2",
+       "section": "Limitations",
+       "page": 6,
+       "char_start": 0,
+       "char_end": 61
+      }
+     ],
+     "future_work:Future work includes learning the planner from data.": [
+      {
+       "paper_id": "p2",
+       "section": "Conclusion",
+       "page": 7,
+       "char_start": 0,
+       "char_end": 52
+      }
+     ]
+    },
+    "unverified": [],
+    "errors": [],
+    "prompt_version": "v1",
+    "model": "scripted-test-double"
+   },
+   "claims": [
+    {
+     "claim_id": "p2#c0",
+     "text": "Explicit planning improves success rate on web tasks.",
+     "source": {
+      "paper_id": "p2",
+      "section": "Experiments",
+      "page": 4,
+      "char_start": 118,
+      "char_end": 204
+     }
+    }
+   ]
+  },
+  "p3": {
+   "id": "p3",
+   "corpus_id": "demo",
+   "filename": "p3.pdf",
+   "title": "SelfCritic: Agents That Critique Their Own Code",
+   "year": 2023,
+   "status": "extracted",
+   "parse_quality": 0.9,
+   "retry_count": 0,
+   "error": null,
+   "authors": [
+    "E. Park",
+    "F. Haddad"
+   ],
+   "abstract": "We present SelfCritic, a loop in which a coding agent critiques and revises its own output.",
+   "created_at": "2026-11-08T17:58:16.637538+00:00",
+   "topics": [
+    "selfcritic, self-critique, code"
+   ],
+   "methods": [
+    "SelfCritic"
+   ],
+   "extraction": {
+    "paper_id": "p3",
+    "problem": "We present SelfCritic, a loop in which a coding agent critiques and revises its own output.",
+    "methods": [
+     "SelfCritic"
+    ],
+    "datasets": [
+     "CodeBench"
+    ],
+    "metrics": [
+     "pass@1"
+    ],
+    "results": [
+     {
+      "dataset": "CodeBench",
+      "metric": "pass@1",
+      "split": "test",
+      "value": 52.3,
+      "unit": null,
+      "method": "SelfCritic",
+      "source": {
+       "paper_id": "p3",
+       "section": "Experiments",
+       "page": 4,
+       "char_start": 0,
+       "char_end": 59
+      }
+     }
+    ],
+    "limitations": [
+     "Self-critique adds substantial inference cost for every query."
+    ],
+    "future_work": [
+     "Future work should reduce the cost of the critique step."
+    ],
+    "source_spans": {
+     "problem:We present SelfCritic, a loop in which a coding agent critiques and revises its own output.": [
+      {
+       "paper_id": "p3",
+       "section": "Abstract",
+       "page": 1,
+       "char_start": 0,
+       "char_end": 91
+      }
+     ],
+     "methods:SelfCritic": [
+      {
+       "paper_id": "p3",
+       "section": "Method",
+       "page": 2,
+       "char_start": 0,
+       "char_end": 76
+      }
+     ],
+     "datasets:CodeBench": [
+      {
+       "paper_id": "p3",
+       "section": "Experiments",
+       "page": 4,
+       "char_start": 0,
+       "char_end": 59
+      }
+     ],
+     "metrics:pass@1": [
+      {
+       "paper_id": "p3",
+       "section": "Experiments",
+       "page": 4,
+       "char_start": 0,
+       "char_end": 59
+      }
+     ],
+     "limitations:Self-critique adds substantial inference cost for every query.": [
+      {
+       "paper_id": "p3",
+       "section": "Limitations",
+       "page": 6,
+       "char_start": 0,
+       "char_end": 62
+      }
+     ],
+     "future_work:Future work should reduce the cost of the critique step.": [
+      {
+       "paper_id": "p3",
+       "section": "Conclusion",
+       "page": 7,
+       "char_start": 0,
+       "char_end": 56
+      }
+     ]
+    },
+    "unverified": [],
+    "errors": [],
+    "prompt_version": "v1",
+    "model": "scripted-test-double"
+   },
+   "claims": [
+    {
+     "claim_id": "p3#c0",
+     "text": "Self-critique improves code generation accuracy.",
+     "source": {
+      "paper_id": "p3",
+      "section": "Experiments",
+      "page": 4,
+      "char_start": 60,
+      "char_end": 136
+     }
+    }
+   ]
+  },
+  "p4": {
+   "id": "p4",
+   "corpus_id": "demo",
+   "filename": "p4.pdf",
+   "title": "Does Self-Critique Help? A Negative Result",
+   "year": 2024,
+   "status": "extracted",
+   "parse_quality": 0.9,
+   "retry_count": 0,
+   "error": null,
+   "authors": [
+    "G. Moreau",
+    "H. Tanaka"
+   ],
+   "abstract": "We replicate SelfCritic on two benchmarks and find the gains are small.",
+   "created_at": "2026-11-09T17:58:16.637538+00:00",
+   "topics": [
+    "selfcritic, self-critique, code"
+   ],
+   "methods": [
+    "SelfCritic"
+   ],
+   "extraction": {
+    "paper_id": "p4",
+    "problem": "We replicate SelfCritic on two benchmarks and find the gains are small.",
+    "methods": [
+     "SelfCritic"
+    ],
+    "datasets": [
+     "CodeBench",
+     "MathQA"
+    ],
+    "metrics": [
+     "pass@1",
+     "accuracy"
+    ],
+    "results": [
+     {
+      "dataset": "CodeBench",
+      "metric": "pass@1",
+      "split": "test",
+      "value": 49.8,
+      "unit": null,
+      "method": "SelfCritic",
+      "source": {
+       "paper_id": "p4",
+       "section": "Experiments",
+       "page": 4,
+       "char_start": 0,
+       "char_end": 75
+      }
+     },
+     {
+      "dataset": "MathQA",
+      "metric": "accuracy",
+      "split": "test",
+      "value": 60.1,
+      "unit": null,
+      "method": "SelfCritic",
+      "source": {
+       "paper_id": "p4",
+       "section": "Experiments",
+       "page": 4,
+       "char_start": 76,
+       "char_end": 134
+      }
+     }
+    ],
+    "limitations": [
+     "Our study covers only small open models."
+    ],
+    "future_work": [
+     "Future work should test larger models with execution feedback."
+    ],
+    "source_spans": {
+     "problem:We replicate SelfCritic on two benchmarks and find the gains are small.": [
+      {
+       "paper_id": "p4",
+       "section": "Abstract",
+       "page": 1,
+       "char_start": 0,
+       "char_end": 71
+      }
+     ],
+     "methods:SelfCritic": [
+      {
+       "paper_id": "p4",
+       "section": "Method",
+       "page": 2,
+       "char_start": 0,
+       "char_end": 75
+      }
+     ],
+     "datasets:CodeBench": [
+      {
+       "paper_id": "p4",
+       "section": "Experiments",
+       "page": 4,
+       "char_start": 0,
+       "char_end": 75
+      }
+     ],
+     "datasets:MathQA": [
+      {
+       "paper_id": "p4",
+       "section": "Experiments",
+       "page": 4,
+       "char_start": 76,
+       "char_end": 134
+      }
+     ],
+     "metrics:pass@1": [
+      {
+       "paper_id": "p4",
+       "section": "Experiments",
+       "page": 4,
+       "char_start": 0,
+       "char_end": 75
+      }
+     ],
+     "metrics:accuracy": [
+      {
+       "paper_id": "p4",
+       "section": "Experiments",
+       "page": 4,
+       "char_start": 76,
+       "char_end": 134
+      }
+     ],
+     "limitations:Our study covers only small open models.": [
+      {
+       "paper_id": "p4",
+       "section": "Limitations",
+       "page": 6,
+       "char_start": 0,
+       "char_end": 40
+      }
+     ],
+     "future_work:Future work should test larger models with execution feedback.": [
+      {
+       "paper_id": "p4",
+       "section": "Conclusion",
+       "page": 7,
+       "char_start": 0,
+       "char_end": 62
+      }
+     ]
+    },
+    "unverified": [],
+    "errors": [],
+    "prompt_version": "v1",
+    "model": "scripted-test-double"
+   },
+   "claims": [
+    {
+     "claim_id": "p4#c0",
+     "text": "Self-critique does not improve code generation accuracy without external feedback.",
+     "source": {
+      "paper_id": "p4",
+      "section": "Experiments",
+      "page": 4,
+      "char_start": 135,
+      "char_end": 217
+     }
+    }
+   ]
+  },
+  "p5": {
+   "id": "p5",
+   "corpus_id": "demo",
+   "filename": "p5.pdf",
+   "title": "ToolTune: Fine-tuning Language Models for Tool Use",
+   "year": 2024,
+   "status": "extracted",
+   "parse_quality": 0.9,
+   "retry_count": 0,
+   "error": null,
+   "authors": [
+    "I. Novak",
+    "J. Adeyemi"
+   ],
+   "abstract": "We propose ToolTune, which fine-tunes a language model on traces of successful tool calls.",
+   "created_at": "2026-11-10T17:58:16.637538+00:00",
+   "topics": [
+    "memorygraph, tooltune, web"
+   ],
+   "methods": [
+    "ToolTune"
+   ],
+   "extraction": {
+    "paper_id": "p5",
+    "problem": "We propose ToolTune, which fine-tunes a language model on traces of successful tool calls.",
+    "methods": [
+     "ToolTune"
+    ],
+    "datasets": [
+     "WebTasks"
+    ],
+    "metrics": [
+     "success rate"
+    ],
+    "results": [
+     {
+      "dataset": "WebTasks",
+      "metric": "success rate",
+      "split": "test",
+      "value": 55.1,
+      "unit": null,
+      "method": "ToolTune",
+      "source": {
+       "paper_id": "p5",
+       "section": "Experiments",
+       "page": 4,
+       "char_start": 0,
+       "char_end": 62
+      }
+     }
+    ],
+    "limitations": [
+     "Fine-tuning requires costly trace collection.",
+     "Success rate degrades on tasks requiring more than ten steps."
+    ],
+    "future_work": [
+     "Future work includes synthetic trace generation."
+    ],
+    "source_spans": {
+     "problem:We propose ToolTune, which fine-tunes a language model on traces of successful tool calls.": [
+      {
+       "paper_id": "p5",
+       "section": "Abstract",
+       "page": 1,
+       "char_start": 0,
+       "char_end": 90
+      }
+     ],
+     "methods:ToolTune": [
+      {
+       "paper_id": "p5",
+       "section": "Method",
+       "page": 2,
+       "char_start": 0,
+       "char_end": 60
+      }
+     ],
+     "datasets:WebTasks": [
+      {
+       "paper_id": "p5",
+       "section": "Experiments",
+       "page": 4,
+       "char_start": 0,
+       "char_end": 62
+      }
+     ],
+     "metrics:success rate": [
+      {
+       "paper_id": "p5",
+       "section": "Experiments",
+       "page": 4,
+       "char_start": 0,
+       "char_end": 62
+      }
+     ],
+     "limitations:Fine-tuning requires costly trace collection.": [
+      {
+       "paper_id": "p5",
+       "section": "Limitations",
+       "page": 6,
+       "char_start": 0,
+       "char_end": 45
+      }
+     ],
+     "limitations:Success rate degrades on tasks requiring more than ten steps.": [
+      {
+       "paper_id": "p5",
+       "section": "Limitations",
+       "page": 6,
+       "char_start": 46,
+       "char_end": 107
+      }
+     ],
+     "future_work:Future work includes synthetic trace generation.": [
+      {
+       "paper_id": "p5",
+       "section": "Conclusion",
+       "page": 7,
+       "char_start": 0,
+       "char_end": 48
+      }
+     ]
+    },
+    "unverified": [],
+    "errors": [],
+    "prompt_version": "v1",
+    "model": "scripted-test-double"
+   },
+   "claims": [
+    {
+     "claim_id": "p5#c0",
+     "text": "Fine-tuning on tool traces improves success rate on web tasks.",
+     "source": {
+      "paper_id": "p5",
+      "section": "Experiments",
+      "page": 4,
+      "char_start": 63,
+      "char_end": 125
+     }
+    }
+   ]
+  },
+  "p6": {
+   "id": "p6",
+   "corpus_id": "demo",
+   "filename": "p6.pdf",
+   "title": "MemoryGraph: Long-term Memory for Web Agents",
+   "year": 2024,
+   "status": "extracted",
+   "parse_quality": 0.9,
+   "retry_count": 0,
+   "error": null,
+   "authors": [
+    "K. Silva",
+    "L. Berg"
+   ],
+   "abstract": "We introduce MemoryGraph, a persistent graph memory for long-horizon web agents.",
+   "created_at": "2026-11-11T17:58:16.637538+00:00",
+   "topics": [
+    "memorygraph, tooltune, web"
+   ],
+   "methods": [
+    "MemoryGraph",
+    "PlanAct"
+   ],
+   "extraction": {
+    "paper_id": "p6",
+    "problem": "We introduce MemoryGraph, a persistent graph memory for long-horizon web agents.",
+    "methods": [
+     "MemoryGraph",
+     "PlanAct"
+    ],
+    "datasets": [
+     "WebTasks"
+    ],
+    "metrics": [
+     "success rate"
+    ],
+    "results": [
+     {
+      "dataset": "WebTasks",
+      "metric": "success rate",
+      "split": "test",
+      "value": 58.7,
+      "unit": null,
+      "method": "MemoryGraph",
+      "source": {
+       "paper_id": "p6",
+       "section": "Experiments",
+       "page": 4,
+       "char_start": 0,
+       "char_end": 65
+      }
+     }
+    ],
+    "limitations": [
+     "Memory growth increases latency over long sessions."
+    ],
+    "future_work": [
+     "Future work includes memory pruning."
+    ],
+    "source_spans": {
+     "problem:We introduce MemoryGraph, a persistent graph memory for long-horizon web agents.": [
+      {
+       "paper_id": "p6",
+       "section": "Abstract",
+       "page": 1,
+       "char_start": 0,
+       "char_end": 80
+      }
+     ],
+     "methods:MemoryGraph": [
+      {
+       "paper_id": "p6",
+       "section": "Method",
+       "page": 2,
+       "char_start": 0,
+       "char_end": 82
+      }
+     ],
+     "methods:PlanAct": [
+      {
+       "paper_id": "p6",
+       "section": "Method",
+       "page": 2,
+       "char_start": 0,
+       "char_end": 82
+      }
+     ],
+     "datasets:WebTasks": [
+      {
+       "paper_id": "p6",
+       "section": "Experiments",
+       "page": 4,
+       "char_start": 0,
+       "char_end": 65
+      }
+     ],
+     "metrics:success rate": [
+      {
+       "paper_id": "p6",
+       "section": "Experiments",
+       "page": 4,
+       "char_start": 0,
+       "char_end": 65
+      }
+     ],
+     "limitations:Memory growth increases latency over long sessions.": [
+      {
+       "paper_id": "p6",
+       "section": "Limitations",
+       "page": 6,
+       "char_start": 0,
+       "char_end": 51
+      }
+     ],
+     "future_work:Future work includes memory pruning.": [
+      {
+       "paper_id": "p6",
+       "section": "Conclusion",
+       "page": 7,
+       "char_start": 0,
+       "char_end": 36
+      }
+     ]
+    },
+    "unverified": [],
+    "errors": [],
+    "prompt_version": "v1",
+    "model": "scripted-test-double"
+   },
+   "claims": [
+    {
+     "claim_id": "p6#c0",
+     "text": "Persistent graph memory improves success rate on long-horizon web tasks.",
+     "source": {
+      "paper_id": "p6",
+      "section": "Experiments",
+      "page": 4,
+      "char_start": 66,
+      "char_end": 138
+     }
+    }
+   ]
+  },
+  "p7": {
+   "id": "p7",
+   "corpus_id": "demo",
+   "filename": "p7.pdf",
+   "title": "Agent Benchmarks Revisited",
+   "year": 2025,
+   "status": "extracted",
+   "parse_quality": 0.9,
+   "retry_count": 0,
+   "error": null,
+   "authors": [
+    "M. Fischer",
+    "N. Osei"
+   ],
+   "abstract": "We re-evaluate PlanAct and chain-of-thought baselines on WebTasks and CodeBench.",
+   "created_at": "2026-11-12T17:58:16.637538+00:00",
+   "topics": [
+    "chain-of-thought, prompting, planact"
+   ],
+   "methods": [
+    "PlanAct",
+    "chain-of-thought"
+   ],
+   "extraction": {
+    "paper_id": "p7",
+    "problem": "We re-evaluate PlanAct and chain-of-thought baselines on WebTasks and CodeBench.",
+    "methods": [
+     "PlanAct",
+     "chain-of-thought"
+    ],
+    "datasets": [
+     "WebTasks",
+     "CodeBench"
+    ],
+    "metrics": [
+     "success rate"
+    ],
+    "results": [
+     {
+      "dataset": "WebTasks",
+      "metric": "success rate",
+      "split": "test",
+      "value": 44.0,
+      "unit": null,
+      "method": "PlanAct",
+      "source": {
+       "paper_id": "p7",
+       "section": "Experiments",
+       "page": 4,
+       "char_start": 0,
+       "char_end": 81
+      }
+     },
+     {
+      "dataset": "WebTasks",
+      "metric": "success rate",
+      "split": "test",
+      "value": 43.2,
+      "unit": null,
+      "method": "chain-of-thought",
+      "source": {
+       "paper_id": "p7",
+       "section": "Experiments",
+       "page": 4,
+       "char_start": 82,
+       "char_end": 162
+      }
+     }
+    ],
+    "limitations": [
+     "We evaluate only English-language tasks."
+    ],
+    "future_work": [
+     "Future work should audit benchmark contamination."
+    ],
+    "source_spans": {
+     "problem:We re-evaluate PlanAct and chain-of-thought baselines on WebTasks and CodeBench.": [
+      {
+       "paper_id": "p7",
+       "section": "Abstract",
+       "page": 1,
+       "char_start": 0,
+       "char_end": 80
+      }
+     ],
+     "methods:PlanAct": [
+      {
+       "paper_id": "p7",
+       "section": "Method",
+       "page": 2,
+       "char_start": 0,
+       "char_end": 70
+      }
+     ],
+     "methods:chain-of-thought": [
+      {
+       "paper_id": "p7",
+       "section": "Method",
+       "page": 2,
+       "char_start": 0,
+       "char_end": 70
+      }
+     ],
+     "datasets:WebTasks": [
+      {
+       "paper_id": "p7",
+       "section": "Experiments",
+       "page": 4,
+       "char_start": 0,
+       "char_end": 81
+      }
+     ],
+     "datasets:CodeBench": [
+      {
+       "paper_id": "p7",
+       "section": "Abstract",
+       "page": 1,
+       "char_start": 0,
+       "char_end": 80
+      }
+     ],
+     "metrics:success rate": [
+      {
+       "paper_id": "p7",
+       "section": "Experiments",
+       "page": 4,
+       "char_start": 0,
+       "char_end": 81
+      }
+     ],
+     "limitations:We evaluate only English-language tasks.": [
+      {
+       "paper_id": "p7",
+       "section": "Limitations",
+       "page": 6,
+       "char_start": 0,
+       "char_end": 40
+      }
+     ],
+     "future_work:Future work should audit benchmark contamination.": [
+      {
+       "paper_id": "p7",
+       "section": "Conclusion",
+       "page": 7,
+       "char_start": 0,
+       "char_end": 49
+      }
+     ]
+    },
+    "unverified": [],
+    "errors": [],
+    "prompt_version": "v1",
+    "model": "scripted-test-double"
+   },
+   "claims": [
+    {
+     "claim_id": "p7#c0",
+     "text": "Explicit planning does not improve success rate on web tasks when prompts are tuned.",
+     "source": {
+      "paper_id": "p7",
+      "section": "Experiments",
+      "page": 4,
+      "char_start": 163,
+      "char_end": 247
+     }
+    }
+   ]
+  },
+  "p8": {
+   "id": "p8",
+   "corpus_id": "demo",
+   "filename": "p8.pdf",
+   "title": "ToolTune Meets MemoryGraph",
+   "year": 2025,
+   "status": "extracted",
+   "parse_quality": 0.9,
+   "retry_count": 0,
+   "error": null,
+   "authors": [
+    "O. Alvarez",
+    "P. Kim"
+   ],
+   "abstract": "We combine ToolTune with MemoryGraph for web agents.",
+   "created_at": "2026-11-13T17:58:16.637538+00:00",
+   "topics": [
+    "memorygraph, tooltune, web"
+   ],
+   "methods": [
+    "ToolTune",
+    "MemoryGraph"
+   ],
+   "extraction": {
+    "paper_id": "p8",
+    "problem": "We combine ToolTune with MemoryGraph for web agents.",
+    "methods": [
+     "ToolTune",
+     "MemoryGraph"
+    ],
+    "datasets": [
+     "WebTasks",
+     "MathQA"
+    ],
+    "metrics": [
+     "success rate",
+     "accuracy"
+    ],
+    "results": [
+     {
+      "dataset": "WebTasks",
+      "metric": "success rate",
+      "split": "test",
+      "value": 61.4,
+      "unit": null,
+      "method": "ToolTune",
+      "source": {
+       "paper_id": "p8",
+       "section": "Experiments",
+       "page": 4,
+       "char_start": 0,
+       "char_end": 72
+      }
+     },
+     {
+      "dataset": "MathQA",
+      "metric": "accuracy",
+      "split": "test",
+      "value": 67.2,
+      "unit": null,
+      "method": "ToolTune",
+      "source": {
+       "paper_id": "p8",
+       "section": "Experiments",
+       "page": 4,
+       "char_start": 73,
+       "char_end": 123
+      }
+     }
+    ],
+    "limitations": [
+     "Evaluation is limited to English tasks."
+    ],
+    "future_work": [
+     "Future work includes multilingual evaluation."
+    ],
+    "source_spans": {
+     "problem:We combine ToolTune with MemoryGraph for web agents.": [
+      {
+       "paper_id": "p8",
+       "section": "Abstract",
+       "page": 1,
+       "char_start": 0,
+       "char_end": 52
+      }
+     ],
+     "methods:ToolTune": [
+      {
+       "paper_id": "p8",
+       "section": "Method",
+       "page": 2,
+       "char_start": 0,
+       "char_end": 76
+      }
+     ],
+     "methods:MemoryGraph": [
+      {
+       "paper_id": "p8",
+       "section": "Method",
+       "page": 2,
+       "char_start": 0,
+       "char_end": 76
+      }
+     ],
+     "datasets:WebTasks": [
+      {
+       "paper_id": "p8",
+       "section": "Experiments",
+       "page": 4,
+       "char_start": 0,
+       "char_end": 72
+      }
+     ],
+     "datasets:MathQA": [
+      {
+       "paper_id": "p8",
+       "section": "Experiments",
+       "page": 4,
+       "char_start": 73,
+       "char_end": 123
+      }
+     ],
+     "metrics:success rate": [
+      {
+       "paper_id": "p8",
+       "section": "Experiments",
+       "page": 4,
+       "char_start": 0,
+       "char_end": 72
+      }
+     ],
+     "metrics:accuracy": [
+      {
+       "paper_id": "p8",
+       "section": "Experiments",
+       "page": 4,
+       "char_start": 73,
+       "char_end": 123
+      }
+     ],
+     "limitations:Evaluation is limited to English tasks.": [
+      {
+       "paper_id": "p8",
+       "section": "Limitations",
+       "page": 6,
+       "char_start": 0,
+       "char_end": 39
+      }
+     ],
+     "future_work:Future work includes multilingual evaluation.": [
+      {
+       "paper_id": "p8",
+       "section": "Conclusion",
+       "page": 7,
+       "char_start": 0,
+       "char_end": 45
+      }
+     ]
+    },
+    "unverified": [],
+    "errors": [],
+    "prompt_version": "v1",
+    "model": "scripted-test-double"
+   },
+   "claims": [
+    {
+     "claim_id": "p8#c0",
+     "text": "Combining fine-tuned tool use with graph memory improves success rate on web tasks.",
+     "source": {
+      "paper_id": "p8",
+      "section": "Experiments",
+      "page": 4,
+      "char_start": 124,
+      "char_end": 207
+     }
+    }
+   ]
+  }
+ },
+ "topics": [
+  {
+   "topic_id": 0,
+   "label": "memorygraph, tooltune, web",
+   "terms": [
+    "memorygraph",
+    "tooltune",
+    "web",
+    "memory",
+    "graph"
+   ],
+   "paper_ids": [
+    "p5",
+    "p6",
+    "p8"
+   ],
+   "papers": [
+    {
+     "id": "p5",
+     "title": "ToolTune: Fine-tuning Language Models for Tool Use"
+    },
+    {
+     "id": "p6",
+     "title": "MemoryGraph: Long-term Memory for Web Agents"
+    },
+    {
+     "id": "p8",
+     "title": "ToolTune Meets MemoryGraph"
+    }
+   ]
+  },
+  {
+   "topic_id": 1,
+   "label": "selfcritic, self-critique, code",
+   "terms": [
+    "selfcritic",
+    "self-critique",
+    "code",
+    "generation",
+    "models"
+   ],
+   "paper_ids": [
+    "p3",
+    "p4"
+   ],
+   "papers": [
+    {
+     "id": "p3",
+     "title": "SelfCritic: Agents That Critique Their Own Code"
+    },
+    {
+     "id": "p4",
+     "title": "Does Self-Critique Help? A Negative Result"
+    }
+   ]
+  },
+  {
+   "topic_id": 2,
+   "label": "chain-of-thought, prompting, planact",
+   "terms": [
+    "chain-of-thought",
+    "prompting",
+    "planact",
+    "explicit",
+    "success"
+   ],
+   "paper_ids": [
+    "p1",
+    "p2",
+    "p7"
+   ],
+   "papers": [
+    {
+     "id": "p1",
+     "title": "Chain-of-Thought Prompting for Multi-step Agents"
+    },
+    {
+     "id": "p2",
+     "title": "PlanAct: Planning Before Acting in Web Agents"
+    },
+    {
+     "id": "p7",
+     "title": "Agent Benchmarks Revisited"
+    }
+   ]
+  }
+ ],
+ "clusters": [
+  {
+   "cluster_id": 0,
+   "members": [
+    {
+     "id": "p2",
+     "title": "PlanAct: Planning Before Acting in Web Agents"
+    },
+    {
+     "id": "p5",
+     "title": "ToolTune: Fine-tuning Language Models for Tool Use"
+    },
+    {
+     "id": "p7",
+     "title": "Agent Benchmarks Revisited"
+    }
+   ]
+  },
+  {
+   "cluster_id": 1,
+   "members": [
+    {
+     "id": "p6",
+     "title": "MemoryGraph: Long-term Memory for Web Agents"
+    },
+    {
+     "id": "p8",
+     "title": "ToolTune Meets MemoryGraph"
+    }
+   ]
+  },
+  {
+   "cluster_id": 2,
+   "members": [
+    {
+     "id": "p3",
+     "title": "SelfCritic: Agents That Critique Their Own Code"
+    },
+    {
+     "id": "p4",
+     "title": "Does Self-Critique Help? A Negative Result"
+    }
+   ]
+  },
+  {
+   "cluster_id": 3,
+   "members": [
+    {
+     "id": "p1",
+     "title": "Chain-of-Thought Prompting for Multi-step Agents"
+    }
+   ]
+  }
+ ],
+ "trends": [
+  {
+   "key": "chain-of-thought, prompting, planact",
+   "kind": "topic",
+   "counts_by_year": {
+    "2022": 1,
+    "2023": 1,
+    "2025": 1
+   },
+   "total": 3,
+   "cagr": 0.0,
+   "emerging": false
+  },
+  {
+   "key": "chain of thought",
+   "kind": "method",
+   "counts_by_year": {
+    "2022": 1,
+    "2023": 1,
+    "2025": 1
+   },
+   "total": 3,
+   "cagr": 0.0,
+   "emerging": false
+  },
+  {
+   "key": "planact",
+   "kind": "method",
+   "counts_by_year": {
+    "2023": 1,
+    "2024": 1,
+    "2025": 1
+   },
+   "total": 3,
+   "cagr": 0.0,
+   "emerging": true
+  },
+  {
+   "key": "tooltune",
+   "kind": "method",
+   "counts_by_year": {
+    "2024": 1,
+    "2025": 1
+   },
+   "total": 2,
+   "cagr": 0.0,
+   "emerging": false
+  },
+  {
+   "key": "memorygraph",
+   "kind": "method",
+   "counts_by_year": {
+    "2024": 1,
+    "2025": 1
+   },
+   "total": 2,
+   "cagr": 0.0,
+   "emerging": false
+  },
+  {
+   "key": "memorygraph, tooltune, web",
+   "kind": "topic",
+   "counts_by_year": {
+    "2024": 2,
+    "2025": 1
+   },
+   "total": 3,
+   "cagr": -0.5,
+   "emerging": true
+  },
+  {
+   "key": "selfcritic, self-critique, code",
+   "kind": "topic",
+   "counts_by_year": {
+    "2023": 1,
+    "2024": 1
+   },
+   "total": 2,
+   "cagr": -1.0,
+   "emerging": false
+  },
+  {
+   "key": "selfcritic",
+   "kind": "method",
+   "counts_by_year": {
+    "2023": 1,
+    "2024": 1
+   },
+   "total": 2,
+   "cagr": -1.0,
+   "emerging": false
+  }
+ ],
+ "gaps": [
+  {
+   "kind": "recurring_limitation",
+   "description": "Recurring limitation in 3 papers: Success rate degrades on tasks requiring more than ten steps.",
+   "evidence_papers": [
+    "p1",
+    "p2",
+    "p5"
+   ],
+   "score": 3.0
+  },
+  {
+   "kind": "untested_pair",
+   "description": "No paper evaluates 'selfcritic' on 'webtasks' (2 papers use the method, 5 use the dataset).",
+   "evidence_papers": [
+    "p2",
+    "p3",
+    "p4",
+    "p5",
+    "p6",
+    "p7",
+    "p8"
+   ],
+   "score": 2.0
+  },
+  {
+   "kind": "untested_pair",
+   "description": "No paper evaluates 'tooltune' on 'codebench' (2 papers use the method, 3 use the dataset).",
+   "evidence_papers": [
+    "p3",
+    "p4",
+    "p5",
+    "p7",
+    "p8"
+   ],
+   "score": 2.0
+  },
+  {
+   "kind": "untested_pair",
+   "description": "No paper evaluates 'memorygraph' on 'codebench' (2 papers use the method, 3 use the dataset).",
+   "evidence_papers": [
+    "p3",
+    "p4",
+    "p6",
+    "p7",
+    "p8"
+   ],
+   "score": 2.0
+  },
+  {
+   "kind": "understudied_topic",
+   "description": "Topic 'selfcritic, self-critique, code' has only 2 paper(s) vs a median of 3.",
+   "evidence_papers": [
+    "p3",
+    "p4"
+   ],
+   "score": 1.0
+  }
+ ],
+ "contradictions": [
+  {
+   "status": "candidate",
+   "confidence": 0.9,
+   "nli_score": 0.95,
+   "judge_score": 0.85,
+   "rationale": "Both claims concern explicit planning but disagree on its effect.",
+   "evidence": [
+    {
+     "claim_id": "p2#c0",
+     "paper_id": "p2",
+     "paper_title": "PlanAct: Planning Before Acting in Web Agents",
+     "text": "Explicit planning improves success rate on web tasks.",
+     "source": {
+      "paper_id": "p2",
+      "section": "Experiments",
+      "page": 4,
+      "char_start": 118,
+      "char_end": 204
+     },
+     "tag": "p2:experiments:4"
+    },
+    {
+     "claim_id": "p7#c0",
+     "paper_id": "p7",
+     "paper_title": "Agent Benchmarks Revisited",
+     "text": "Explicit planning does not improve success rate on web tasks when prompts are tuned.",
+     "source": {
+      "paper_id": "p7",
+      "section": "Experiments",
+      "page": 4,
+      "char_start": 163,
+      "char_end": 247
+     },
+     "tag": "p7:experiments:4"
+    }
+   ]
+  },
+  {
+   "status": "candidate",
+   "confidence": 0.875,
+   "nli_score": 0.9,
+   "judge_score": 0.85,
+   "rationale": "Both claims concern self-critique but disagree on its effect.",
+   "evidence": [
+    {
+     "claim_id": "p3#c0",
+     "paper_id": "p3",
+     "paper_title": "SelfCritic: Agents That Critique Their Own Code",
+     "text": "Self-critique improves code generation accuracy.",
+     "source": {
+      "paper_id": "p3",
+      "section": "Experiments",
+      "page": 4,
+      "char_start": 60,
+      "char_end": 136
+     },
+     "tag": "p3:experiments:4"
+    },
+    {
+     "claim_id": "p4#c0",
+     "paper_id": "p4",
+     "paper_title": "Does Self-Critique Help? A Negative Result",
+     "text": "Self-critique does not improve code generation accuracy without external feedback.",
+     "source": {
+      "paper_id": "p4",
+      "section": "Experiments",
+      "page": 4,
+      "char_start": 135,
+      "char_end": 217
+     },
+     "tag": "p4:experiments:4"
+    }
+   ]
+  }
+ ],
+ "graph": {
+  "nodes": [
+   {
+    "kind": "Paper",
+    "title": "Chain-of-Thought Prompting for Multi-step Agents",
+    "year": 2022,
+    "id": "paper:p1"
+   },
+   {
+    "kind": "Author",
+    "id": "author:A. Rivera"
+   },
+   {
+    "kind": "Author",
+    "id": "author:B. Chen"
+   },
+   {
+    "kind": "Paper",
+    "title": "PlanAct: Planning Before Acting in Web Agents",
+    "year": 2023,
+    "id": "paper:p2"
+   },
+   {
+    "kind": "Author",
+    "id": "author:C. Okafor"
+   },
+   {
+    "kind": "Author",
+    "id": "author:D. Lindqvist"
+   },
+   {
+    "kind": "Paper",
+    "title": "SelfCritic: Agents That Critique Their Own Code",
+    "year": 2023,
+    "id": "paper:p3"
+   },
+   {
+    "kind": "Author",
+    "id": "author:E. Park"
+   },
+   {
+    "kind": "Author",
+    "id": "author:F. Haddad"
+   },
+   {
+    "kind": "Paper",
+    "title": "Does Self-Critique Help? A Negative Result",
+    "year": 2024,
+    "id": "paper:p4"
+   },
+   {
+    "kind": "Author",
+    "id": "author:G. Moreau"
+   },
+   {
+    "kind": "Author",
+    "id": "author:H. Tanaka"
+   },
+   {
+    "kind": "Paper",
+    "title": "ToolTune: Fine-tuning Language Models for Tool Use",
+    "year": 2024,
+    "id": "paper:p5"
+   },
+   {
+    "kind": "Author",
+    "id": "author:I. Novak"
+   },
+   {
+    "kind": "Author",
+    "id": "author:J. Adeyemi"
+   },
+   {
+    "kind": "Paper",
+    "title": "MemoryGraph: Long-term Memory for Web Agents",
+    "year": 2024,
+    "id": "paper:p6"
+   },
+   {
+    "kind": "Author",
+    "id": "author:K. Silva"
+   },
+   {
+    "kind": "Author",
+    "id": "author:L. Berg"
+   },
+   {
+    "kind": "Paper",
+    "title": "Agent Benchmarks Revisited",
+    "year": 2025,
+    "id": "paper:p7"
+   },
+   {
+    "kind": "Author",
+    "id": "author:M. Fischer"
+   },
+   {
+    "kind": "Author",
+    "id": "author:N. Osei"
+   },
+   {
+    "kind": "Paper",
+    "title": "ToolTune Meets MemoryGraph",
+    "year": 2025,
+    "id": "paper:p8"
+   },
+   {
+    "kind": "Author",
+    "id": "author:O. Alvarez"
+   },
+   {
+    "kind": "Author",
+    "id": "author:P. Kim"
+   },
+   {
+    "kind": "Method",
+    "id": "method:chain of thought"
+   },
+   {
+    "kind": "Dataset",
+    "id": "dataset:mathqa"
+   },
+   {
+    "kind": "Metric",
+    "id": "metric:accuracy"
+   },
+   {
+    "kind": "Limitation",
+    "text": "Success rate degrades on tasks requiring more than ten steps.",
+    "id": "limitation:p1|Success rate degrades on tasks requiring more than ten steps"
+   },
+   {
+    "kind": "Method",
+    "id": "method:planact"
+   },
+   {
+    "kind": "Dataset",
+    "id": "dataset:webtasks"
+   },
+   {
+    "kind": "Metric",
+    "id": "metric:success rate"
+   },
+   {
+    "kind": "Limitation",
+    "text": "Success rate degrades on tasks requiring more than ten steps.",
+    "id": "limitation:p2|Success rate degrades on tasks requiring more than ten steps"
+   },
+   {
+    "kind": "Method",
+    "id": "method:selfcritic"
+   },
+   {
+    "kind": "Dataset",
+    "id": "dataset:codebench"
+   },
+   {
+    "kind": "Metric",
+    "id": "metric:pass 1"
+   },
+   {
+    "kind": "Limitation",
+    "text": "Self-critique adds substantial inference cost for every query.",
+    "id": "limitation:p3|Self-critique adds substantial inference cost for every quer"
+   },
+   {
+    "kind": "Limitation",
+    "text": "Our study covers only small open models.",
+    "id": "limitation:p4|Our study covers only small open models."
+   },
+   {
+    "kind": "Method",
+    "id": "method:tooltune"
+   },
+   {
+    "kind": "Limitation",
+    "text": "Fine-tuning requires costly trace collection.",
+    "id": "limitation:p5|Fine-tuning requires costly trace collection."
+   },
+   {
+    "kind": "Limitation",
+    "text": "Success rate degrades on tasks requiring more than ten steps.",
+    "id": "limitation:p5|Success rate degrades on tasks requiring more than ten steps"
+   },
+   {
+    "kind": "Method",
+    "id": "method:memorygraph"
+   },
+   {
+    "kind": "Limitation",
+    "text": "Memory growth increases latency over long sessions.",
+    "id": "limitation:p6|Memory growth increases latency over long sessions."
+   },
+   {
+    "kind": "Limitation",
+    "text": "We evaluate only English-language tasks.",
+    "id": "limitation:p7|We evaluate only English-language tasks."
+   },
+   {
+    "kind": "Limitation",
+    "text": "Evaluation is limited to English tasks.",
+    "id": "limitation:p8|Evaluation is limited to English tasks."
+   },
+   {
+    "kind": "Topic",
+    "terms": [
+     "memorygraph",
+     "tooltune",
+     "web",
+     "memory",
+     "graph"
+    ],
+    "id": "topic:memorygraph, tooltune, web"
+   },
+   {
+    "kind": "Topic",
+    "terms": [
+     "selfcritic",
+     "self-critique",
+     "code",
+     "generation",
+     "models"
+    ],
+    "id": "topic:selfcritic, self-critique, code"
+   },
+   {
+    "kind": "Topic",
+    "terms": [
+     "chain-of-thought",
+     "prompting",
+     "planact",
+     "explicit",
+     "success"
+    ],
+    "id": "topic:chain-of-thought, prompting, planact"
+   },
+   {
+    "kind": "Claim",
+    "text": "Chain-of-thought prompting improves accuracy on multi-step math problems.",
+    "tag": "[p1:experiments:4]",
+    "id": "claim:p1#c0"
+   },
+   {
+    "kind": "Claim",
+    "text": "Explicit planning improves success rate on web tasks.",
+    "tag": "[p2:experiments:4]",
+    "id": "claim:p2#c0"
+   },
+   {
+    "kind": "Claim",
+    "text": "Self-critique improves code generation accuracy.",
+    "tag": "[p3:experiments:4]",
+    "id": "claim:p3#c0"
+   },
+   {
+    "kind": "Claim",
+    "text": "Self-critique does not improve code generation accuracy without external feedback.",
+    "tag": "[p4:experiments:4]",
+    "id": "claim:p4#c0"
+   },
+   {
+    "kind": "Claim",
+    "text": "Fine-tuning on tool traces improves success rate on web tasks.",
+    "tag": "[p5:experiments:4]",
+    "id": "claim:p5#c0"
+   },
+   {
+    "kind": "Claim",
+    "text": "Persistent graph memory improves success rate on long-horizon web tasks.",
+    "tag": "[p6:experiments:4]",
+    "id": "claim:p6#c0"
+   },
+   {
+    "kind": "Claim",
+    "text": "Explicit planning does not improve success rate on web tasks when prompts are tuned.",
+    "tag": "[p7:experiments:4]",
+    "id": "claim:p7#c0"
+   },
+   {
+    "kind": "Claim",
+    "text": "Combining fine-tuned tool use with graph memory improves success rate on web tasks.",
+    "tag": "[p8:experiments:4]",
+    "id": "claim:p8#c0"
+   }
+  ],
+  "edges": [
+   {
+    "rel": "USES_METHOD",
+    "source": "paper:p1",
+    "target": "method:chain of thought",
+    "key": 0
+   },
+   {
+    "rel": "EVALUATES_ON",
+    "source": "paper:p1",
+    "target": "dataset:mathqa",
+    "key": 0
+   },
+   {
+    "rel": "REPORTS",
+    "value": 61.2,
+    "dataset": "mathqa",
+    "split": "test",
+    "method": "chain-of-thought",
+    "tag": "[p1:experiments:4]",
+    "source": "paper:p1",
+    "target": "metric:accuracy",
+    "key": 0
+   },
+   {
+    "rel": "HAS_LIMITATION",
+    "source": "paper:p1",
+    "target": "limitation:p1|Success rate degrades on tasks requiring more than ten steps",
+    "key": 0
+   },
+   {
+    "rel": "BELONGS_TO",
+    "source": "paper:p1",
+    "target": "topic:chain-of-thought, prompting, planact",
+    "key": 0
+   },
+   {
+    "rel": "MAKES_CLAIM",
+    "source": "paper:p1",
+    "target": "claim:p1#c0",
+    "key": 0
+   },
+   {
+    "rel": "AUTHORED",
+    "source": "author:A. Rivera",
+    "target": "paper:p1",
+    "key": 0
+   },
+   {
+    "rel": "AUTHORED",
+    "source": "author:B. Chen",
+    "target": "paper:p1",
+    "key": 0
+   },
+   {
+    "rel": "CITES",
+    "source": "paper:p2",
+    "target": "paper:p1",
+    "key": 0
+   },
+   {
+    "rel": "USES_METHOD",
+    "source": "paper:p2",
+    "target": "method:planact",
+    "key": 0
+   },
+   {
+    "rel": "USES_METHOD",
+    "source": "paper:p2",
+    "target": "method:chain of thought",
+    "key": 0
+   },
+   {
+    "rel": "EVALUATES_ON",
+    "source": "paper:p2",
+    "target": "dataset:webtasks",
+    "key": 0
+   },
+   {
+    "rel": "EVALUATES_ON",
+    "source": "paper:p2",
+    "target": "dataset:mathqa",
+    "key": 0
+   },
+   {
+    "rel": "REPORTS",
+    "value": 48.5,
+    "dataset": "webtasks",
+    "split": "test",
+    "method": "PlanAct",
+    "tag": "[p2:experiments:4]",
+    "source": "paper:p2",
+    "target": "metric:success rate",
+    "key": 0
+   },
+   {
+    "rel": "REPORTS",
+    "value": 66.0,
+    "dataset": "mathqa",
+    "split": "test",
+    "method": "PlanAct",
+    "tag": "[p2:experiments:4]",
+    "source": "paper:p2",
+    "target": "metric:accuracy",
+    "key": 0
+   },
+   {
+    "rel": "HAS_LIMITATION",
+    "source": "paper:p2",
+    "target": "limitation:p2|Success rate degrades on tasks requiring more than ten steps",
+    "key": 0
+   },
+   {
+    "rel": "BELONGS_TO",
+    "source": "paper:p2",
+    "target": "topic:chain-of-thought, prompting, planact",
+    "key": 0
+   },
+   {
+    "rel": "MAKES_CLAIM",
+    "source": "paper:p2",
+    "target": "claim:p2#c0",
+    "key": 0
+   },
+   {
+    "rel": "AUTHORED",
+    "source": "author:C. Okafor",
+    "target": "paper:p2",
+    "key": 0
+   },
+   {
+    "rel": "AUTHORED",
+    "source": "author:D. Lindqvist",
+    "target": "paper:p2",
+    "key": 0
+   },
+   {
+    "rel": "USES_METHOD",
+    "source": "paper:p3",
+    "target": "method:selfcritic",
+    "key": 0
+   },
+   {
+    "rel": "EVALUATES_ON",
+    "source": "paper:p3",
+    "target": "dataset:codebench",
+    "key": 0
+   },
+   {
+    "rel": "REPORTS",
+    "value": 52.3,
+    "dataset": "codebench",
+    "split": "test",
+    "method": "SelfCritic",
+    "tag": "[p3:experiments:4]",
+    "source": "paper:p3",
+    "target": "metric:pass 1",
+    "key": 0
+   },
+   {
+    "rel": "HAS_LIMITATION",
+    "source": "paper:p3",
+    "target": "limitation:p3|Self-critique adds substantial inference cost for every quer",
+    "key": 0
+   },
+   {
+    "rel": "BELONGS_TO",
+    "source": "paper:p3",
+    "target": "topic:selfcritic, self-critique, code",
+    "key": 0
+   },
+   {
+    "rel": "MAKES_CLAIM",
+    "source": "paper:p3",
+    "target": "claim:p3#c0",
+    "key": 0
+   },
+   {
+    "rel": "AUTHORED",
+    "source": "author:E. Park",
+    "target": "paper:p3",
+    "key": 0
+   },
+   {
+    "rel": "AUTHORED",
+    "source": "author:F. Haddad",
+    "target": "paper:p3",
+    "key": 0
+   },
+   {
+    "rel": "CITES",
+    "source": "paper:p4",
+    "target": "paper:p3",
+    "key": 0
+   },
+   {
+    "rel": "USES_METHOD",
+    "source": "paper:p4",
+    "target": "method:selfcritic",
+    "key": 0
+   },
+   {
+    "rel": "EVALUATES_ON",
+    "source": "paper:p4",
+    "target": "dataset:codebench",
+    "key": 0
+   },
+   {
+    "rel": "EVALUATES_ON",
+    "source": "paper:p4",
+    "target": "dataset:mathqa",
+    "key": 0
+   },
+   {
+    "rel": "REPORTS",
+    "value": 49.8,
+    "dataset": "codebench",
+    "split": "test",
+    "method": "SelfCritic",
+    "tag": "[p4:experiments:4]",
+    "source": "paper:p4",
+    "target": "metric:pass 1",
+    "key": 0
+   },
+   {
+    "rel": "REPORTS",
+    "value": 60.1,
+    "dataset": "mathqa",
+    "split": "test",
+    "method": "SelfCritic",
+    "tag": "[p4:experiments:4]",
+    "source": "paper:p4",
+    "target": "metric:accuracy",
+    "key": 0
+   },
+   {
+    "rel": "HAS_LIMITATION",
+    "source": "paper:p4",
+    "target": "limitation:p4|Our study covers only small open models.",
+    "key": 0
+   },
+   {
+    "rel": "BELONGS_TO",
+    "source": "paper:p4",
+    "target": "topic:selfcritic, self-critique, code",
+    "key": 0
+   },
+   {
+    "rel": "MAKES_CLAIM",
+    "source": "paper:p4",
+    "target": "claim:p4#c0",
+    "key": 0
+   },
+   {
+    "rel": "AUTHORED",
+    "source": "author:G. Moreau",
+    "target": "paper:p4",
+    "key": 0
+   },
+   {
+    "rel": "AUTHORED",
+    "source": "author:H. Tanaka",
+    "target": "paper:p4",
+    "key": 0
+   },
+   {
+    "rel": "USES_METHOD",
+    "source": "paper:p5",
+    "target": "method:tooltune",
+    "key": 0
+   },
+   {
+    "rel": "EVALUATES_ON",
+    "source": "paper:p5",
+    "target": "dataset:webtasks",
+    "key": 0
+   },
+   {
+    "rel": "REPORTS",
+    "value": 55.1,
+    "dataset": "webtasks",
+    "split": "test",
+    "method": "ToolTune",
+    "tag": "[p5:experiments:4]",
+    "source": "paper:p5",
+    "target": "metric:success rate",
+    "key": 0
+   },
+   {
+    "rel": "HAS_LIMITATION",
+    "source": "paper:p5",
+    "target": "limitation:p5|Fine-tuning requires costly trace collection.",
+    "key": 0
+   },
+   {
+    "rel": "HAS_LIMITATION",
+    "source": "paper:p5",
+    "target": "limitation:p5|Success rate degrades on tasks requiring more than ten steps",
+    "key": 0
+   },
+   {
+    "rel": "BELONGS_TO",
+    "source": "paper:p5",
+    "target": "topic:memorygraph, tooltune, web",
+    "key": 0
+   },
+   {
+    "rel": "MAKES_CLAIM",
+    "source": "paper:p5",
+    "target": "claim:p5#c0",
+    "key": 0
+   },
+   {
+    "rel": "AUTHORED",
+    "source": "author:I. Novak",
+    "target": "paper:p5",
+    "key": 0
+   },
+   {
+    "rel": "AUTHORED",
+    "source": "author:J. Adeyemi",
+    "target": "paper:p5",
+    "key": 0
+   },
+   {
+    "rel": "USES_METHOD",
+    "source": "paper:p6",
+    "target": "method:memorygraph",
+    "key": 0
+   },
+   {
+    "rel": "USES_METHOD",
+    "source": "paper:p6",
+    "target": "method:planact",
+    "key": 0
+   },
+   {
+    "rel": "EVALUATES_ON",
+    "source": "paper:p6",
+    "target": "dataset:webtasks",
+    "key": 0
+   },
+   {
+    "rel": "REPORTS",
+    "value": 58.7,
+    "dataset": "webtasks",
+    "split": "test",
+    "method": "MemoryGraph",
+    "tag": "[p6:experiments:4]",
+    "source": "paper:p6",
+    "target": "metric:success rate",
+    "key": 0
+   },
+   {
+    "rel": "HAS_LIMITATION",
+    "source": "paper:p6",
+    "target": "limitation:p6|Memory growth increases latency over long sessions.",
+    "key": 0
+   },
+   {
+    "rel": "BELONGS_TO",
+    "source": "paper:p6",
+    "target": "topic:memorygraph, tooltune, web",
+    "key": 0
+   },
+   {
+    "rel": "MAKES_CLAIM",
+    "source": "paper:p6",
+    "target": "claim:p6#c0",
+    "key": 0
+   },
+   {
+    "rel": "AUTHORED",
+    "source": "author:K. Silva",
+    "target": "paper:p6",
+    "key": 0
+   },
+   {
+    "rel": "AUTHORED",
+    "source": "author:L. Berg",
+    "target": "paper:p6",
+    "key": 0
+   },
+   {
+    "rel": "CITES",
+    "source": "paper:p7",
+    "target": "paper:p2",
+    "key": 0
+   },
+   {
+    "rel": "USES_METHOD",
+    "source": "paper:p7",
+    "target": "method:planact",
+    "key": 0
+   },
+   {
+    "rel": "USES_METHOD",
+    "source": "paper:p7",
+    "target": "method:chain of thought",
+    "key": 0
+   },
+   {
+    "rel": "EVALUATES_ON",
+    "source": "paper:p7",
+    "target": "dataset:webtasks",
+    "key": 0
+   },
+   {
+    "rel": "EVALUATES_ON",
+    "source": "paper:p7",
+    "target": "dataset:codebench",
+    "key": 0
+   },
+   {
+    "rel": "REPORTS",
+    "value": 44.0,
+    "dataset": "webtasks",
+    "split": "test",
+    "method": "PlanAct",
+    "tag": "[p7:experiments:4]",
+    "source": "paper:p7",
+    "target": "metric:success rate",
+    "key": 0
+   },
+   {
+    "rel": "REPORTS",
+    "value": 43.2,
+    "dataset": "webtasks",
+    "split": "test",
+    "method": "chain-of-thought",
+    "tag": "[p7:experiments:4]",
+    "source": "paper:p7",
+    "target": "metric:success rate",
+    "key": 1
+   },
+   {
+    "rel": "HAS_LIMITATION",
+    "source": "paper:p7",
+    "target": "limitation:p7|We evaluate only English-language tasks.",
+    "key": 0
+   },
+   {
+    "rel": "BELONGS_TO",
+    "source": "paper:p7",
+    "target": "topic:chain-of-thought, prompting, planact",
+    "key": 0
+   },
+   {
+    "rel": "MAKES_CLAIM",
+    "source": "paper:p7",
+    "target": "claim:p7#c0",
+    "key": 0
+   },
+   {
+    "rel": "AUTHORED",
+    "source": "author:M. Fischer",
+    "target": "paper:p7",
+    "key": 0
+   },
+   {
+    "rel": "AUTHORED",
+    "source": "author:N. Osei",
+    "target": "paper:p7",
+    "key": 0
+   },
+   {
+    "rel": "CITES",
+    "source": "paper:p8",
+    "target": "paper:p5",
+    "key": 0
+   },
+   {
+    "rel": "CITES",
+    "source": "paper:p8",
+    "target": "paper:p6",
+    "key": 0
+   },
+   {
+    "rel": "USES_METHOD",
+    "source": "paper:p8",
+    "target": "method:tooltune",
+    "key": 0
+   },
+   {
+    "rel": "USES_METHOD",
+    "source": "paper:p8",
+    "target": "method:memorygraph",
+    "key": 0
+   },
+   {
+    "rel": "EVALUATES_ON",
+    "source": "paper:p8",
+    "target": "dataset:webtasks",
+    "key": 0
+   },
+   {
+    "rel": "EVALUATES_ON",
+    "source": "paper:p8",
+    "target": "dataset:mathqa",
+    "key": 0
+   },
+   {
+    "rel": "REPORTS",
+    "value": 61.4,
+    "dataset": "webtasks",
+    "split": "test",
+    "method": "ToolTune",
+    "tag": "[p8:experiments:4]",
+    "source": "paper:p8",
+    "target": "metric:success rate",
+    "key": 0
+   },
+   {
+    "rel": "REPORTS",
+    "value": 67.2,
+    "dataset": "mathqa",
+    "split": "test",
+    "method": "ToolTune",
+    "tag": "[p8:experiments:4]",
+    "source": "paper:p8",
+    "target": "metric:accuracy",
+    "key": 0
+   },
+   {
+    "rel": "HAS_LIMITATION",
+    "source": "paper:p8",
+    "target": "limitation:p8|Evaluation is limited to English tasks.",
+    "key": 0
+   },
+   {
+    "rel": "BELONGS_TO",
+    "source": "paper:p8",
+    "target": "topic:memorygraph, tooltune, web",
+    "key": 0
+   },
+   {
+    "rel": "MAKES_CLAIM",
+    "source": "paper:p8",
+    "target": "claim:p8#c0",
+    "key": 0
+   },
+   {
+    "rel": "AUTHORED",
+    "source": "author:O. Alvarez",
+    "target": "paper:p8",
+    "key": 0
+   },
+   {
+    "rel": "AUTHORED",
+    "source": "author:P. Kim",
+    "target": "paper:p8",
+    "key": 0
+   },
+   {
+    "rel": "CONTRADICTS",
+    "confidence": 0.9,
+    "status": "candidate",
+    "source": "claim:p2#c0",
+    "target": "claim:p7#c0",
+    "key": 0
+   },
+   {
+    "rel": "CONTRADICTS",
+    "confidence": 0.875,
+    "status": "candidate",
+    "source": "claim:p3#c0",
+    "target": "claim:p4#c0",
+    "key": 0
+   }
+  ]
+ },
+ "compare": [
+  {
+   "dataset": "codebench",
+   "metric": "pass 1",
+   "split": "test",
+   "lower_is_better": false,
+   "rows": [
+    {
+     "paper_id": "p3",
+     "method": "SelfCritic",
+     "value": 52.3,
+     "unit": null,
+     "tag": "[p3:experiments:4]"
+    },
+    {
+     "paper_id": "p4",
+     "method": "SelfCritic",
+     "value": 49.8,
+     "unit": null,
+     "tag": "[p4:experiments:4]"
+    }
+   ]
+  },
+  {
+   "dataset": "mathqa",
+   "metric": "accuracy",
+   "split": "test",
+   "lower_is_better": false,
+   "rows": [
+    {
+     "paper_id": "p8",
+     "method": "ToolTune",
+     "value": 67.2,
+     "unit": null,
+     "tag": "[p8:experiments:4]"
+    },
+    {
+     "paper_id": "p2",
+     "method": "PlanAct",
+     "value": 66.0,
+     "unit": null,
+     "tag": "[p2:experiments:4]"
+    },
+    {
+     "paper_id": "p1",
+     "method": "chain-of-thought",
+     "value": 61.2,
+     "unit": null,
+     "tag": "[p1:experiments:4]"
+    },
+    {
+     "paper_id": "p4",
+     "method": "SelfCritic",
+     "value": 60.1,
+     "unit": null,
+     "tag": "[p4:experiments:4]"
+    }
+   ]
+  },
+  {
+   "dataset": "webtasks",
+   "metric": "success rate",
+   "split": "test",
+   "lower_is_better": false,
+   "rows": [
+    {
+     "paper_id": "p8",
+     "method": "ToolTune",
+     "value": 61.4,
+     "unit": null,
+     "tag": "[p8:experiments:4]"
+    },
+    {
+     "paper_id": "p6",
+     "method": "MemoryGraph",
+     "value": 58.7,
+     "unit": null,
+     "tag": "[p6:experiments:4]"
+    },
+    {
+     "paper_id": "p5",
+     "method": "ToolTune",
+     "value": 55.1,
+     "unit": null,
+     "tag": "[p5:experiments:4]"
+    },
+    {
+     "paper_id": "p2",
+     "method": "PlanAct",
+     "value": 48.5,
+     "unit": null,
+     "tag": "[p2:experiments:4]"
+    },
+    {
+     "paper_id": "p7",
+     "method": "PlanAct",
+     "value": 44.0,
+     "unit": null,
+     "tag": "[p7:experiments:4]"
+    },
+    {
+     "paper_id": "p7",
+     "method": "chain-of-thought",
+     "value": 43.2,
+     "unit": null,
+     "tag": "[p7:experiments:4]"
+    }
+   ]
+  }
+ ],
+ "reports": [
+  {
+   "id": "demo-report-landscape",
+   "corpus_id": "demo",
+   "kind": "landscape",
+   "title": "Research Landscape Report \u2014 Sample corpus (synthetic)",
+   "status": "done",
+   "paper_count": 8,
+   "created_at": "2026-11-14T17:58:16.637538+00:00",
+   "has_pdf": false,
+   "error": null,
+   "markdown": "# Research Landscape Report \u2014 Sample corpus (synthetic)\n\n_Corpus: 8 papers, 2022\u20132025. Items marked *candidate* need human review._\n\n## Executive summary\n\nWe study chain-of-thought prompting for multi-step agents on grade-school math problems. [p1:abstract:1] We introduce PlanAct, an agent that writes an explicit plan before taking web actions. [p2:abstract:1] We present SelfCritic, a loop in which a coding agent critiques and revises its own output. [p3:abstract:1] We replicate SelfCritic on two benchmarks and find the gains are small. [p4:abstract:1]\n\n## Topics\n\n- **memorygraph, tooltune, web** (3 papers: p5, p6, p8) \u2014 terms: memorygraph, tooltune, web, memory, graph\n- **selfcritic, self-critique, code** (2 papers: p3, p4) \u2014 terms: selfcritic, self-critique, code, generation, models\n- **chain-of-thought, prompting, planact** (3 papers: p1, p2, p7) \u2014 terms: chain-of-thought, prompting, planact, explicit, success\n\n## Trends\n\n| Kind | Key | Papers | By year | CAGR (last 3y) | Emerging |\n|---|---|---|---|---|---|\n| topic | chain-of-thought, prompting, planact | 3 | {2022: 1, 2023: 1, 2025: 1} | +0% |  |\n| method | chain of thought | 3 | {2022: 1, 2023: 1, 2025: 1} | +0% |  |\n| method | planact | 3 | {2023: 1, 2024: 1, 2025: 1} | +0% | yes |\n| method | tooltune | 2 | {2024: 1, 2025: 1} | +0% |  |\n| method | memorygraph | 2 | {2024: 1, 2025: 1} | +0% |  |\n| topic | memorygraph, tooltune, web | 3 | {2024: 2, 2025: 1} | -50% | yes |\n| topic | selfcritic, self-critique, code | 2 | {2023: 1, 2024: 1} | -100% |  |\n| method | selfcritic | 2 | {2023: 1, 2024: 1} | -100% |  |\n\n## Benchmarks (same dataset, metric and split only)\n\n**codebench / pass 1 / test** (higher is better)\n\n| Method / paper | Value | Source |\n|---|---|---|\n| SelfCritic | 52.3 | [p3:experiments:4] |\n| SelfCritic | 49.8 | [p4:experiments:4] |\n\n**mathqa / accuracy / test** (higher is better)\n\n| Method / paper | Value | Source |\n|---|---|---|\n| ToolTune | 67.2 | [p8:experiments:4] |\n| PlanAct | 66 | [p2:experiments:4] |\n| chain-of-thought | 61.2 | [p1:experiments:4] |\n| SelfCritic | 60.1 | [p4:experiments:4] |\n\n**webtasks / success rate / test** (higher is better)\n\n| Method / paper | Value | Source |\n|---|---|---|\n| ToolTune | 61.4 | [p8:experiments:4] |\n| MemoryGraph | 58.7 | [p6:experiments:4] |\n| ToolTune | 55.1 | [p5:experiments:4] |\n| PlanAct | 48.5 | [p2:experiments:4] |\n| PlanAct | 44 | [p7:experiments:4] |\n| chain-of-thought | 43.2 | [p7:experiments:4] |\n\n## Candidate contradictions\n\n- *Candidate* (confidence 0.90): \u201cExplicit planning improves success rate on web tasks.\u201d [p2:experiments:4] vs \u201cExplicit planning does not improve success rate on web tasks when prompts are tuned.\u201d [p7:experiments:4]. Both claims concern explicit planning but disagree on its effect.\n- *Candidate* (confidence 0.88): \u201cSelf-critique improves code generation accuracy.\u201d [p3:experiments:4] vs \u201cSelf-critique does not improve code generation accuracy without external feedback.\u201d [p4:experiments:4]. Both claims concern self-critique but disagree on its effect.\n\n## Research gaps\n\n- *recurring limitation*: Recurring limitation in 3 papers: Success rate degrades on tasks requiring more than ten steps. (papers: p1, p2, p5)\n- *untested pair*: No paper evaluates 'selfcritic' on 'webtasks' (2 papers use the method, 5 use the dataset). (papers: p2, p3, p4, p5, p6, p7)\n- *untested pair*: No paper evaluates 'tooltune' on 'codebench' (2 papers use the method, 3 use the dataset). (papers: p3, p4, p5, p7, p8)\n- *untested pair*: No paper evaluates 'memorygraph' on 'codebench' (2 papers use the method, 3 use the dataset). (papers: p3, p4, p6, p7, p8)\n- *understudied topic*: Topic 'selfcritic, self-critique, code' has only 2 paper(s) vs a median of 3. (papers: p3, p4)\n\n## Papers\n\n- `p1` Chain-of-Thought Prompting for Multi-step Agents (2022)\n- `p2` PlanAct: Planning Before Acting in Web Agents (2023)\n- `p3` SelfCritic: Agents That Critique Their Own Code (2023)\n- `p4` Does Self-Critique Help? A Negative Result (2024)\n- `p5` ToolTune: Fine-tuning Language Models for Tool Use (2024)\n- `p6` MemoryGraph: Long-term Memory for Web Agents (2024)\n- `p7` Agent Benchmarks Revisited (2025)\n- `p8` ToolTune Meets MemoryGraph (2025)"
+  },
+  {
+   "id": "demo-report-methodology",
+   "corpus_id": "demo",
+   "kind": "methodology",
+   "title": "Methodology Analysis Report \u2014 Sample corpus (synthetic)",
+   "status": "done",
+   "paper_count": 8,
+   "created_at": "2026-11-13T17:58:16.637538+00:00",
+   "has_pdf": false,
+   "error": null,
+   "markdown": "# Methodology Analysis Report \u2014 Sample corpus (synthetic)\n\n_Corpus: 8 papers, 2022\u20132025. Items marked *candidate* need human review._\n\n## Trends\n\n| Kind | Key | Papers | By year | CAGR (last 3y) | Emerging |\n|---|---|---|---|---|---|\n| topic | chain-of-thought, prompting, planact | 3 | {2022: 1, 2023: 1, 2025: 1} | +0% |  |\n| method | chain of thought | 3 | {2022: 1, 2023: 1, 2025: 1} | +0% |  |\n| method | planact | 3 | {2023: 1, 2024: 1, 2025: 1} | +0% | yes |\n| method | tooltune | 2 | {2024: 1, 2025: 1} | +0% |  |\n| method | memorygraph | 2 | {2024: 1, 2025: 1} | +0% |  |\n| topic | memorygraph, tooltune, web | 3 | {2024: 2, 2025: 1} | -50% | yes |\n| topic | selfcritic, self-critique, code | 2 | {2023: 1, 2024: 1} | -100% |  |\n| method | selfcritic | 2 | {2023: 1, 2024: 1} | -100% |  |\n\n## Benchmarks (same dataset, metric and split only)\n\n**codebench / pass 1 / test** (higher is better)\n\n| Method / paper | Value | Source |\n|---|---|---|\n| SelfCritic | 52.3 | [p3:experiments:4] |\n| SelfCritic | 49.8 | [p4:experiments:4] |\n\n**mathqa / accuracy / test** (higher is better)\n\n| Method / paper | Value | Source |\n|---|---|---|\n| ToolTune | 67.2 | [p8:experiments:4] |\n| PlanAct | 66 | [p2:experiments:4] |\n| chain-of-thought | 61.2 | [p1:experiments:4] |\n| SelfCritic | 60.1 | [p4:experiments:4] |\n\n**webtasks / success rate / test** (higher is better)\n\n| Method / paper | Value | Source |\n|---|---|---|\n| ToolTune | 61.4 | [p8:experiments:4] |\n| MemoryGraph | 58.7 | [p6:experiments:4] |\n| ToolTune | 55.1 | [p5:experiments:4] |\n| PlanAct | 48.5 | [p2:experiments:4] |\n| PlanAct | 44 | [p7:experiments:4] |\n| chain-of-thought | 43.2 | [p7:experiments:4] |\n"
+  },
+  {
+   "id": "demo-report-gaps",
+   "corpus_id": "demo",
+   "kind": "gaps",
+   "title": "Research Gap Report \u2014 Sample corpus (synthetic)",
+   "status": "done",
+   "paper_count": 8,
+   "created_at": "2026-11-12T17:58:16.637538+00:00",
+   "has_pdf": false,
+   "error": null,
+   "markdown": "# Research Gap Report \u2014 Sample corpus (synthetic)\n\n_Corpus: 8 papers, 2022\u20132025. Items marked *candidate* need human review._\n\n## Topics\n\n- **memorygraph, tooltune, web** (3 papers: p5, p6, p8) \u2014 terms: memorygraph, tooltune, web, memory, graph\n- **selfcritic, self-critique, code** (2 papers: p3, p4) \u2014 terms: selfcritic, self-critique, code, generation, models\n- **chain-of-thought, prompting, planact** (3 papers: p1, p2, p7) \u2014 terms: chain-of-thought, prompting, planact, explicit, success\n\n## Research gaps\n\n- *recurring limitation*: Recurring limitation in 3 papers: Success rate degrades on tasks requiring more than ten steps. (papers: p1, p2, p5)\n- *untested pair*: No paper evaluates 'selfcritic' on 'webtasks' (2 papers use the method, 5 use the dataset). (papers: p2, p3, p4, p5, p6, p7)\n- *untested pair*: No paper evaluates 'tooltune' on 'codebench' (2 papers use the method, 3 use the dataset). (papers: p3, p4, p5, p7, p8)\n- *untested pair*: No paper evaluates 'memorygraph' on 'codebench' (2 papers use the method, 3 use the dataset). (papers: p3, p4, p6, p7, p8)\n- *understudied topic*: Topic 'selfcritic, self-critique, code' has only 2 paper(s) vs a median of 3. (papers: p3, p4)\n"
+  },
+  {
+   "id": "demo-report-literature_review",
+   "corpus_id": "demo",
+   "kind": "literature_review",
+   "title": "Literature Review Report \u2014 Sample corpus (synthetic)",
+   "status": "done",
+   "paper_count": 8,
+   "created_at": "2026-11-11T17:58:16.637538+00:00",
+   "has_pdf": false,
+   "error": null,
+   "markdown": "# Literature Review Report \u2014 Sample corpus (synthetic)\n\n_Corpus: 8 papers, 2022\u20132025. Items marked *candidate* need human review._\n\n## Executive summary\n\nWe study chain-of-thought prompting for multi-step agents on grade-school math problems. [p1:abstract:1] We introduce PlanAct, an agent that writes an explicit plan before taking web actions. [p2:abstract:1] We present SelfCritic, a loop in which a coding agent critiques and revises its own output. [p3:abstract:1] We replicate SelfCritic on two benchmarks and find the gains are small. [p4:abstract:1]\n\n## Topics\n\n- **memorygraph, tooltune, web** (3 papers: p5, p6, p8) \u2014 terms: memorygraph, tooltune, web, memory, graph\n- **selfcritic, self-critique, code** (2 papers: p3, p4) \u2014 terms: selfcritic, self-critique, code, generation, models\n- **chain-of-thought, prompting, planact** (3 papers: p1, p2, p7) \u2014 terms: chain-of-thought, prompting, planact, explicit, success\n\n## Papers\n\n- `p1` Chain-of-Thought Prompting for Multi-step Agents (2022)\n- `p2` PlanAct: Planning Before Acting in Web Agents (2023)\n- `p3` SelfCritic: Agents That Critique Their Own Code (2023)\n- `p4` Does Self-Critique Help? A Negative Result (2024)\n- `p5` ToolTune: Fine-tuning Language Models for Tool Use (2024)\n- `p6` MemoryGraph: Long-term Memory for Web Agents (2024)\n- `p7` Agent Benchmarks Revisited (2025)\n- `p8` ToolTune Meets MemoryGraph (2025)"
+  },
+  {
+   "id": "demo-report-contradictions",
+   "corpus_id": "demo",
+   "kind": "contradictions",
+   "title": "Contradiction Analysis Report \u2014 Sample corpus (synthetic)",
+   "status": "done",
+   "paper_count": 8,
+   "created_at": "2026-11-10T17:58:16.637538+00:00",
+   "has_pdf": false,
+   "error": null,
+   "markdown": "# Contradiction Analysis Report \u2014 Sample corpus (synthetic)\n\n_Corpus: 8 papers, 2022\u20132025. Items marked *candidate* need human review._\n\n## Candidate contradictions\n\n- *Candidate* (confidence 0.90): \u201cExplicit planning improves success rate on web tasks.\u201d [p2:experiments:4] vs \u201cExplicit planning does not improve success rate on web tasks when prompts are tuned.\u201d [p7:experiments:4]. Both claims concern explicit planning but disagree on its effect.\n- *Candidate* (confidence 0.88): \u201cSelf-critique improves code generation accuracy.\u201d [p3:experiments:4] vs \u201cSelf-critique does not improve code generation accuracy without external feedback.\u201d [p4:experiments:4]. Both claims concern self-critique but disagree on its effect.\n"
+  },
+  {
+   "id": "demo-report-topic_relationships",
+   "corpus_id": "demo",
+   "kind": "topic_relationships",
+   "title": "Topic Relationship Report \u2014 Sample corpus (synthetic)",
+   "status": "done",
+   "paper_count": 8,
+   "created_at": "2026-11-09T17:58:16.637538+00:00",
+   "has_pdf": false,
+   "error": null,
+   "markdown": "# Topic Relationship Report \u2014 Sample corpus (synthetic)\n\n_Corpus: 8 papers, 2022\u20132025. Items marked *candidate* need human review._\n\n## Topics\n\n- **memorygraph, tooltune, web** (3 papers: p5, p6, p8) \u2014 terms: memorygraph, tooltune, web, memory, graph\n- **selfcritic, self-critique, code** (2 papers: p3, p4) \u2014 terms: selfcritic, self-critique, code, generation, models\n- **chain-of-thought, prompting, planact** (3 papers: p1, p2, p7) \u2014 terms: chain-of-thought, prompting, planact, explicit, success\n\n## Trends\n\n| Kind | Key | Papers | By year | CAGR (last 3y) | Emerging |\n|---|---|---|---|---|---|\n| topic | chain-of-thought, prompting, planact | 3 | {2022: 1, 2023: 1, 2025: 1} | +0% |  |\n| method | chain of thought | 3 | {2022: 1, 2023: 1, 2025: 1} | +0% |  |\n| method | planact | 3 | {2023: 1, 2024: 1, 2025: 1} | +0% | yes |\n| method | tooltune | 2 | {2024: 1, 2025: 1} | +0% |  |\n| method | memorygraph | 2 | {2024: 1, 2025: 1} | +0% |  |\n| topic | memorygraph, tooltune, web | 3 | {2024: 2, 2025: 1} | -50% | yes |\n| topic | selfcritic, self-critique, code | 2 | {2023: 1, 2024: 1} | -100% |  |\n| method | selfcritic | 2 | {2023: 1, 2024: 1} | -100% |  |\n"
+  }
+ ],
+ "asks": {
+  "Compare success rate results on WebTasks": {
+   "answer": "ToolTune reaches 55.1 success rate on the WebTasks test split. [p5:experiments:4] MemoryGraph reaches 58.7 success rate on the WebTasks test split. [p6:experiments:4] PlanAct reaches 44.0 success rate on the WebTasks test split after prompt tuning. [p7:experiments:4] The combined agent reaches 61.4 success rate on the WebTasks test split. [p8:experiments:4]",
+   "grounded_ratio": 1.0,
+   "trace_id": "demo-trace",
+   "citations": [
+    {
+     "tag": "p5:experiments:4",
+     "paper_title": "ToolTune: Fine-tuning Language Models for Tool Use",
+     "section": "Experiments",
+     "page": 4,
+     "quote": "ToolTune reaches 55.1 success rate on the WebTasks test split. Fine-tuning on tool traces improves success rate on web tasks."
+    },
+    {
+     "tag": "p6:experiments:4",
+     "paper_title": "MemoryGraph: Long-term Memory for Web Agents",
+     "section": "Experiments",
+     "page": 4,
+     "quote": "MemoryGraph reaches 58.7 success rate on the WebTasks test split. Persistent graph memory improves success rate on long-horizon web tasks."
+    },
+    {
+     "tag": "p7:experiments:4",
+     "paper_title": "Agent Benchmarks Revisited",
+     "section": "Experiments",
+     "page": 4,
+     "quote": "PlanAct reaches 44.0 success rate on the WebTasks test split after prompt tuning. Chain-of-thought prompting reaches 43.2 success rate on the WebTasks test split. Explicit planning does not improve success rate on web tasks when prompts are tuned."
+    },
+    {
+     "tag": "p8:experiments:4",
+     "paper_title": "ToolTune Meets MemoryGraph",
+     "section": "",
+     "page": 0,
+     "quote": "On webtasks (success rate) ToolTune reports 61.4."
+    }
+   ]
+  },
+  "Are there contradictions between experimental findings?": {
+   "answer": "We study chain-of-thought prompting for multi-step agents on grade-school math problems. [p1:abstract:1] Agents that reason step by step solve more problems than agents that answer directly. [p1:introduction:1] We prompt the model with worked examples using chain-of-thought prompting. [p1:method:2] Chain-of-thought prompting reaches 61.2 accuracy on the MathQA test split. [p1:experiments:4]",
+   "grounded_ratio": 1.0,
+   "trace_id": "demo-trace",
+   "citations": [
+    {
+     "tag": "p1:abstract:1",
+     "paper_title": "Chain-of-Thought Prompting for Multi-step Agents",
+     "section": "Abstract",
+     "page": 1,
+     "quote": "We study chain-of-thought prompting for multi-step agents on grade-school math problems."
+    },
+    {
+     "tag": "p1:introduction:1",
+     "paper_title": "Chain-of-Thought Prompting for Multi-step Agents",
+     "section": "Introduction",
+     "page": 1,
+     "quote": "Agents that reason step by step solve more problems than agents that answer directly."
+    },
+    {
+     "tag": "p1:method:2",
+     "paper_title": "Chain-of-Thought Prompting for Multi-step Agents",
+     "section": "Method",
+     "page": 2,
+     "quote": "We prompt the model with worked examples using chain-of-thought prompting."
+    },
+    {
+     "tag": "p1:experiments:4",
+     "paper_title": "Chain-of-Thought Prompting for Multi-step Agents",
+     "section": "Experiments",
+     "page": 4,
+     "quote": "Chain-of-thought prompting reaches 61.2 accuracy on the MathQA test split."
+    }
+   ]
+  },
+  "What research gaps remain unexplored?": {
+   "answer": "We study chain-of-thought prompting for multi-step agents on grade-school math problems. [p1:abstract:1] Agents that reason step by step solve more problems than agents that answer directly. [p1:introduction:1] We prompt the model with worked examples using chain-of-thought prompting. [p1:method:2] Chain-of-thought prompting reaches 61.2 accuracy on the MathQA test split. [p1:experiments:4]",
+   "grounded_ratio": 1.0,
+   "trace_id": "demo-trace",
+   "citations": [
+    {
+     "tag": "p1:abstract:1",
+     "paper_title": "Chain-of-Thought Prompting for Multi-step Agents",
+     "section": "Abstract",
+     "page": 1,
+     "quote": "Recurring limitation in 3 papers: Success rate degrades on tasks requiring more than ten steps. (p1: We study chain-of-thought prompting for multi-step agents on grade-school math problems.)"
+    },
+    {
+     "tag": "p1:introduction:1",
+     "paper_title": "Chain-of-Thought Prompting for Multi-step Agents",
+     "section": "Introduction",
+     "page": 1,
+     "quote": "Agents that reason step by step solve more problems than agents that answer directly."
+    },
+    {
+     "tag": "p1:method:2",
+     "paper_title": "Chain-of-Thought Prompting for Multi-step Agents",
+     "section": "Method",
+     "page": 2,
+     "quote": "We prompt the model with worked examples using chain-of-thought prompting."
+    },
+    {
+     "tag": "p1:experiments:4",
+     "paper_title": "Chain-of-Thought Prompting for Multi-step Agents",
+     "section": "Experiments",
+     "page": 4,
+     "quote": "Chain-of-thought prompting reaches 61.2 accuracy on the MathQA test split."
+    }
+   ]
+  },
+  "What are the major limitations identified across these papers?": {
+   "answer": "We study chain-of-thought prompting for multi-step agents on grade-school math problems. [p1:abstract:1] Agents that reason step by step solve more problems than agents that answer directly. [p1:introduction:1] We prompt the model with worked examples using chain-of-thought prompting. [p1:method:2] Chain-of-thought prompting reaches 61.2 accuracy on the MathQA test split. [p1:experiments:4]",
+   "grounded_ratio": 1.0,
+   "trace_id": "demo-trace",
+   "citations": [
+    {
+     "tag": "p1:abstract:1",
+     "paper_title": "Chain-of-Thought Prompting for Multi-step Agents",
+     "section": "Abstract",
+     "page": 1,
+     "quote": "We study chain-of-thought prompting for multi-step agents on grade-school math problems."
+    },
+    {
+     "tag": "p1:introduction:1",
+     "paper_title": "Chain-of-Thought Prompting for Multi-step Agents",
+     "section": "Introduction",
+     "page": 1,
+     "quote": "Agents that reason step by step solve more problems than agents that answer directly."
+    },
+    {
+     "tag": "p1:method:2",
+     "paper_title": "Chain-of-Thought Prompting for Multi-step Agents",
+     "section": "Method",
+     "page": 2,
+     "quote": "We prompt the model with worked examples using chain-of-thought prompting."
+    },
+    {
+     "tag": "p1:experiments:4",
+     "paper_title": "Chain-of-Thought Prompting for Multi-step Agents",
+     "section": "Experiments",
+     "page": 4,
+     "quote": "Chain-of-thought prompting reaches 61.2 accuracy on the MathQA test split."
+    }
+   ]
+  },
+  "Which methods are most frequently used and how do trends look over time?": {
+   "answer": "Future work should study how reasoning depth interacts with tool access. [p1:conclusion:7] We tune the prompts of chain-of-thought and PlanAct baselines equally. [p7:method:2] SelfCritic prompts the model to write a critique and then a revised program. [p3:method:2] Evaluation is limited to English tasks. [p8:limitations:6]",
+   "grounded_ratio": 1.0,
+   "trace_id": "demo-trace",
+   "citations": [
+    {
+     "tag": "p1:conclusion:7",
+     "paper_title": "Chain-of-Thought Prompting for Multi-step Agents",
+     "section": "Conclusion",
+     "page": 7,
+     "quote": "Future work should study how reasoning depth interacts with tool access."
+    },
+    {
+     "tag": "p7:method:2",
+     "paper_title": "Agent Benchmarks Revisited",
+     "section": "Method",
+     "page": 2,
+     "quote": "We tune the prompts of chain-of-thought and PlanAct baselines equally."
+    },
+    {
+     "tag": "p3:method:2",
+     "paper_title": "SelfCritic: Agents That Critique Their Own Code",
+     "section": "Method",
+     "page": 2,
+     "quote": "SelfCritic prompts the model to write a critique and then a revised program."
+    },
+    {
+     "tag": "p8:limitations:6",
+     "paper_title": "ToolTune Meets MemoryGraph",
+     "section": "Limitations",
+     "page": 6,
+     "quote": "Evaluation is limited to English tasks."
+    }
+   ]
+  },
+  "What are the most commonly used methodologies?": {
+   "answer": "We study chain-of-thought prompting for multi-step agents on grade-school math problems. [p1:abstract:1] Agents that reason step by step solve more problems than agents that answer directly. [p1:introduction:1] We prompt the model with worked examples using chain-of-thought prompting. [p1:method:2] Chain-of-thought prompting reaches 61.2 accuracy on the MathQA test split. [p1:experiments:4]",
+   "grounded_ratio": 1.0,
+   "trace_id": "demo-trace",
+   "citations": [
+    {
+     "tag": "p1:abstract:1",
+     "paper_title": "Chain-of-Thought Prompting for Multi-step Agents",
+     "section": "Abstract",
+     "page": 1,
+     "quote": "We study chain-of-thought prompting for multi-step agents on grade-school math problems."
+    },
+    {
+     "tag": "p1:introduction:1",
+     "paper_title": "Chain-of-Thought Prompting for Multi-step Agents",
+     "section": "Introduction",
+     "page": 1,
+     "quote": "Agents that reason step by step solve more problems than agents that answer directly."
+    },
+    {
+     "tag": "p1:method:2",
+     "paper_title": "Chain-of-Thought Prompting for Multi-step Agents",
+     "section": "Method",
+     "page": 2,
+     "quote": "We prompt the model with worked examples using chain-of-thought prompting."
+    },
+    {
+     "tag": "p1:experiments:4",
+     "paper_title": "Chain-of-Thought Prompting for Multi-step Agents",
+     "section": "Experiments",
+     "page": 4,
+     "quote": "Chain-of-thought prompting reaches 61.2 accuracy on the MathQA test split."
+    }
+   ]
+  }
+ },
+ "suggestedQuestions": [
+  "Compare success rate results on WebTasks",
+  "Are there contradictions between experimental findings?",
+  "What research gaps remain unexplored?",
+  "What are the major limitations identified across these papers?",
+  "Which methods are most frequently used and how do trends look over time?",
+  "What are the most commonly used methodologies?"
+ ]
+}
